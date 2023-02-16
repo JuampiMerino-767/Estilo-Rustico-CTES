@@ -218,9 +218,15 @@ function cargarProductos(productosElegidos){
                 <h3>Informacion del producto</h3>
                 <p>${producto.info}</p>              
             </div>
+            <figure class="imghvr-blur">
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+            <figcaption>
+                <h3 class="producto-titulo ih-fade-down ih-delay-sm ">${producto.titulo}</h3>
+                <p class="producto-precio ih-zoom-in ih-delay-md">${producto.precio}$</p>
+            </figcaption>
+        </figure>
             <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
+                <h3 class="producto-titulo ">${producto.titulo}</h3>
                 <p class="producto-precio">${producto.precio}$</p>
                 <button id="${producto.id}" class="producto-agregar">Agregar</button>
             </div>
@@ -230,6 +236,17 @@ function cargarProductos(productosElegidos){
     actualizasBotonesAgregar()
     
 };
+
+/* 
+<figure class="imghvr-fade">
+                <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+                <figcaption>
+                    <h3 class="producto-titulo">${producto.titulo}</h3>
+                    <p class="producto-precio">${producto.precio}$</p>
+                </figcaption>
+            </figure>
+*/
+
 
 cargarProductos(productos);
 
