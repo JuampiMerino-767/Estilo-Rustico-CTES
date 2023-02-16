@@ -218,8 +218,8 @@ function cargarProductos(productosElegidos){
             <figure class="imghvr-reveal-down">
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <figcaption>
-                <h3 class="producto-titulo ih-fade-down ih-delay-sm ">${producto.titulo}</h3>
-                <p class="producto-precio ih-zoom-in ih-delay-md">${producto.precio}$</p>
+                <h3 class="producto-titulo ">${producto.titulo}</h3>
+                <p class="producto-precio">${producto.precio}$</p>
             </figcaption>
         </figure>
             <div class="producto-detalles">

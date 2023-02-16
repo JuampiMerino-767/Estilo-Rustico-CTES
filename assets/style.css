@@ -297,7 +297,7 @@ p {
     position: absolute;
     top: 7%;
     border-radius: 20px;
-    left: 38%;
+    left: 30%;
     transform: translate(-50,-50);
     height: 270px;
     pointer-events: none;
@@ -314,7 +314,7 @@ p {
 }
 
 .card .content{
-    left: 25%;
+    left: 12%;
     position: relative;
     width: 40%;
     padding-left: 80px;
@@ -323,7 +323,7 @@ p {
 
 }
 .card:hover .content{
-    left: 12%;
+    left: 1%;
     opacity: 1;
     visibility: visible;
 }
@@ -410,6 +410,7 @@ p {
     
 }
 .title-products h2{
+    text-align: center;
     font-size: 30px;
     background-color: #171717;
     color: #ffff;
@@ -417,8 +418,15 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 @media (max-width: 668px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
     .head{
         width: 100vw;
         padding: 0 12px;
