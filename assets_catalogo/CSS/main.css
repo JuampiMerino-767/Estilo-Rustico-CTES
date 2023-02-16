@@ -38,7 +38,7 @@ a {
 aside {
     padding: 2rem;
     padding-right: 0;
-    color: var(--clr-white);
+    color: var(--clr-main-light);
     position: sticky;
     top: 0;
     height: 100vh;
@@ -117,7 +117,7 @@ aside {
 }
 
 .numerito {
-    background-color: var(--clr-white);
+    background-color: var(--clr-main-light);
     color: var(--clr-main);
     padding: .15rem .25rem;
     border-radius: .25rem;
@@ -217,6 +217,9 @@ main {
     cursor: pointer;
     border: 2px solid var(--clr-white);
     transition: background-color .2s, color .2s;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .producto-agregar:hover {
@@ -320,13 +323,16 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
+    background-color: var(--clr-main-d);
     padding: 1rem;
     color: var(--clr-white);
     text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+.carrito-acciones-comprar a{
+    color: #ccc;
 }
 
 .header-mobile {
