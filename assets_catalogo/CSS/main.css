@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main:rgba(77, 47, 2, 0.75);
+    --clr-main-f:rgba(82, 49, 0, 0.75);
     --clr-main-d:#6b390b;
     --clr-main-light: black;
     --clr-white: #ccc;
@@ -32,7 +32,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--clr-main);
+    background-color: var(--clr-main-d);
 }
 
 aside {
@@ -370,6 +370,7 @@ main {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        background-color: var(--clr-main-f);
     }
 
     aside {
@@ -470,13 +471,7 @@ main {
         border-radius: 15px;
         
     }
-    aside{
-        background-color: var(--clr-main-d);
-    }
-    .wrapper{
-        background-color: var(--clr-main-d);
-    }
-    
+ 
 }
 
 @media screen and (max-width: 400px) {
