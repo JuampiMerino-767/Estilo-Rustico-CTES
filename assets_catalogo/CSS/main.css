@@ -465,9 +465,16 @@ main {
 
 
 @media screen and (max-width: 1900px) {
-    .imghvr-blur{
+    .imghvr-reveal-down{
         width: 100%;
         border-radius: 15px;
+        
+    }
+    aside{
+        background-color: var(--clr-main-d);
+    }
+    .wrapper{
+        background-color: var(--clr-main-d);
     }
     
 }
@@ -477,5 +484,6 @@ main {
         grid-template-columns: 1fr;
     }
 
+ 
 }
 

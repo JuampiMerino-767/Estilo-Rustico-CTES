@@ -214,11 +214,8 @@ function cargarProductos(productosElegidos){
         const div = document.createElement('div');
         div.classList.add('producto');
         div.innerHTML = `
-            <div class="info-producto ">
-                <h3>Informacion del producto</h3>
-                <p>${producto.info}</p>              
-            </div>
-            <figure class="imghvr-blur">
+
+            <figure class="imghvr-reveal-down">
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <figcaption>
                 <h3 class="producto-titulo ih-fade-down ih-delay-sm ">${producto.titulo}</h3>
