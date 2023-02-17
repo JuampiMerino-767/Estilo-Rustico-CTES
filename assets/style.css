@@ -161,7 +161,14 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-
+    
+}
+.info-content{
+    padding: 0;
+    background: url(img/revestimiento\ pared\ blanca.jpg)  center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
 }
 
 .box-container .box {
@@ -482,6 +489,7 @@ p {
         width: 240px;
         
     }
+
    
     .number{
         border-bottom: 2px solid white;
@@ -501,8 +509,7 @@ p {
         cursor: pointer;
         transition: 1s ease-in-out;
     }
-    
- 
+
     .navbar{
         transform: translateX(280px);
     }
@@ -615,6 +622,14 @@ p {
 .title-icon i{
     left: 0;
     top: 10px;
+    color: #000;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    padding: 15px ;
+    background-color: #fff;
+
+    border-radius: 50%;
 }
 
 }
