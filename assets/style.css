@@ -592,6 +592,7 @@ p {
         flex-direction: column;
         gap: 10px;
         padding: 60px 40px 30px;
+        left: 0;
     }
     .card-profile .user-profile .imgBx {
         position: absolute;
@@ -694,6 +695,7 @@ p {
         align-items: center;
         text-decoration: none;
         gap: 10px;
+        font-size: 19px;
     }
     .card-profile.active .contact-profile li a .iconBx{
         position: relative;
@@ -911,6 +913,7 @@ p {
 
     border-radius: 50%;
 }
+
 
 }
 @media (max-width: 1300px) {
