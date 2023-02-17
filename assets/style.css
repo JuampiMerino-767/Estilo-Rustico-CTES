@@ -97,7 +97,11 @@ body {
  
 }
 .title-icon i{
-    font-size: 39px
+    position: relative;
+    bottom: 2rem;
+    right: -200px;  
+    font-size: 39px;
+    color: #ffff;
 }
 
 #title-prin{
@@ -192,10 +196,11 @@ p {
 
 .box-container .box p {
     padding: 0 15px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .box{
     padding: 15px;
+    
 }
 
 .about {
@@ -607,6 +612,20 @@ p {
     transition: 0.5s;
     background-color: #000504;
 }
+.title-icon i{
+    left: 0;
+    top: 10px;
+}
 
+}
+@media (max-width: 1300px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
