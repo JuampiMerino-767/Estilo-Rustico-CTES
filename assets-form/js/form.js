@@ -14,7 +14,6 @@ const obtenerProductsLS = () =>{
 
 obtenerProductsLS()
 
-
 document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 

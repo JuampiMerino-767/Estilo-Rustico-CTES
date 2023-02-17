@@ -22,6 +22,7 @@ const productos = [
     {
         id: "item 2",
         titulo:"item 2",
+        recomend:'Recomendado',
         imagen:"./assets_catalogo/IMG/item 2.jpg",
         info:{
             tipo:'Revestimiento de pared',
@@ -42,6 +43,7 @@ const productos = [
     {
         id: "item 3",
         titulo: "item 3",
+        recomend:'Recomendado',
         imagen: "./assets_catalogo/IMG/item 3.jpg",
         info:{
             tipo:'Revestimiento de pared',
@@ -122,6 +124,7 @@ const productos = [
     {
         id: "item 7",
         titulo: "item 7",
+        recomend:'Recomendado',
         imagen: "./assets_catalogo/IMG/item 7.jpg",
         info:{
             tipo:'Revestimiento de pared',
@@ -308,7 +311,8 @@ const productos = [
     {
         id: "item 16",
         titulo: "item 16",
-info:{
+        recomend:'Recomendado',
+        info:{
             tipo:'Revestimiento de pared',
             Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
             Precio:' por m2',
@@ -421,7 +425,7 @@ function cargarProductos(productosElegidos){
                 <p class="producto-precio">*Material: ${producto.info.Material}</p>
                 <hr>
                 <br>
-                <p class="producto-precio">*Material: ${producto.info.Medida}</p>
+                <p class="producto-precio">*Medida: ${producto.info.Medida} por unidad</p>
                 <hr>
                 <br>
                 <p class="producto-precio">*Peso: ${producto.info.Peso}</p>

@@ -96,6 +96,9 @@ body {
     text-shadow: 5px 5px 10px #000000, -11px 9px 13px #000;
  
 }
+.title-icon i{
+    font-size: 39px
+}
 
 #title-prin{
     font-size: 90px;
@@ -189,7 +192,10 @@ p {
 
 .box-container .box p {
     padding: 0 15px;
-    font-size: 16px;
+    font-size: 15px;
+}
+.box{
+    padding: 15px;
 }
 
 .about {
@@ -471,6 +477,7 @@ p {
         width: 240px;
         
     }
+   
     .number{
         border-bottom: 2px solid white;
         margin-bottom: 5px;
