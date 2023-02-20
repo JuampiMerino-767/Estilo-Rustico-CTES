@@ -170,7 +170,41 @@ main {
     opacity: 1;
     background-color: rgba(248, 248, 248, .8);
 }
+
+.zoomIn {
+    -webkit-animation-name: producto-anim;
+    animation-name: producto-anim;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes producto-anim {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes producto-anim {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
+
+
+
+
 .producto{
+    
     box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
     -webkit-box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
     -moz-box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
@@ -276,6 +310,7 @@ main {
 .producto-precio{
     font-size: 13px;
 }
+
 .carrito-producto {
     display: flex;
     justify-content: space-between;

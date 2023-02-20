@@ -744,46 +744,6 @@ const numerito = document.querySelector('#numerito');
 const numeritoMobile = document.querySelector('#numerito-mobile');
 
 
-/*
-
-Revestimiento de pared 
-
-Revestimientos simil madera
-
-Mayken
-Revestimiento de pared
-Material: Hormigón pigmentado con o sin tratamiento simil madera
-Precio: por m2
-Medida: 60x14,5x3 cm
-Peso por unidad: 5kg aproximadamente 
-Cantidad unidades por m2: 11,50 
-Cantidad por pallet: 
-Código: ER0000-126
-
-Quebracho y corteza
-Revestimiento de Pared o piso 
-Material: Hormigón pigmentado
-Precio: por m2
-Medida: 50x13,5x2,5 cm
-Peso por unidad: 4.5kg aproximadamente
-Cantidad de unidades por m2: 15 
-Cantidad por pallet:
-Código: ER0000-048 
-
-Revestimientos simil piedra
-
-Murete San Juan
-Revestimiento de pared 
-Material: Hormigón pigmentado
-Precio: por m2
-Medida: 57x19x2,5 cm
-Peso por unidad: 4.6 Kg aproximadamente
-Cantidad unidades por m2: 9 
-Código: ER0000-079
-
-*/
-
-
 /*Funcion para cargar los productos en la seccion todos los productos*/
 
 function cargarProductos(productosElegidos){
@@ -795,6 +755,7 @@ function cargarProductos(productosElegidos){
 
         const div = document.createElement('div');
         div.classList.add('producto');
+        div.classList.add('zoomIn')
         div.innerHTML = `
 
             <figure class="imghvr-reveal-down">
