@@ -1,10 +1,10 @@
 const productos = [
     {
         id: "item 1",
-        titulo: "item 1",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 1.jpg",
         info:{
-            tipo:'Revestimiento de pared',
+            tipo:'Revestimiento de pared de Hormigon',
             Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
             Precio:' por m2',
             Medida: '60x14,5x3 cm',
@@ -14,190 +14,190 @@ const productos = [
             Código: 'ER0000-126',
         },
         categoria: {
-            nombre: "Antitermico",
-            id: "Antitermicos"
+            nombre: "Mayken",
+            id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 2",
-        titulo:"item 2",
+        titulo:"Revestimiento",
         recomend:'Recomendado',
         imagen:"./assets_catalogo/IMG/item 2.jpg",
         info:{
-            tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            tipo:'Revestimiento de pared o piso',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '50x13,5x2,5 cm',
+            Peso: '4.5kg aproximadamente por unidad', 
+            Cantidad: '15 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-048 ',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Quebracho y Corteza",
+            id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 3",
-        titulo: "item 3",
+        titulo: "Revestimiento",
         recomend:'Recomendado',
         imagen: "./assets_catalogo/IMG/item 3.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '57x19x2,5 cm',
+            Peso: '4.6 Kg aproximadamente por unidad', 
+            Cantidad: '9 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-079',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Murete San Juan (MSJ)",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 4",
-        titulo: "item 4",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 4.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '44x49x3,5 cm',
+            Peso: '52.2 Kg aproximadamentepor unidad', 
+            Cantidad: '36 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-117',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Simil Piedra (SP)",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 5",
-        titulo: "item 5",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 5.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '40x20x25 cm',
+            Peso: '3.5 Kg aproximadamente por unidad', 
+            Cantidad: '12,5 unidades por m2',
             Cantidad: 'por pallet',
             Código: 'ER0000-126',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Roca",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 6",
-        titulo: "item 6",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 6.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento ',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '37x59x3+/-4 cm',
+            Peso: '23 Kg aproximadamente por unidad', 
+            Cantidad: '40 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-083',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Murete San Luis (MSL)",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 7",
-        titulo: "item 7",
+        titulo: "Revestimiento",
         recomend:'Recomendado',
         imagen: "./assets_catalogo/IMG/item 7.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '10x27,5x3 cm',
+            Peso: '4.6kg aproximadamente por unidad', 
+            Cantidad: '36 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-101',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Traverlite",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 8",
-        titulo: "item 8",
+        titulo:"Revestimiento",
         imagen: "./assets_catalogo/IMG/item 8.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
+            Medida: '10x10x2 cm',
             Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Cantidad: '100 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-037',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Adoquin",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
-        id: "item 9",
+        id: "Revestimiento",
         titulo: "item 9",
         imagen: "./assets_catalogo/IMG/item 9.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '44x60x3,5+/-4 cm',
+            Peso: '1.2kg aproximadamente por unidad', 
+            Cantidad: 'No-definido',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-097',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Piedra Umha",
             id: "Revestimientos"
         },
         precio: 1000
     },
     {
         id: "item 10",
-        titulo: "item 10",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 10.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '28x10x3 cm',
+            Peso: '4.6kg aproximadamente por unidad', 
+            Cantidad: '36 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Prisma",
             id: "Revestimientos"
         },
         precio: 1000
@@ -205,125 +205,126 @@ const productos = [
     ,
     {
         id: "item 11",
-        titulo: "item 11",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 11.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
+            Medida: '14,5x50x2 cm',
             Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Cantidad: '14 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Quarzita",
+            id: "Revestimientos"
         },
         precio: 1000
     }
     ,
     {
-        id: "item 12",
-        titulo: "item 12",
+        id: "Revestimiento",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 12.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: 'No definido',
+            Peso: '1.9kg aproximadamente por unidad', 
+            Cantidad: '17 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-091',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Patagonia",
+            id: "Revestimientos"
         },
         precio: 1000
     }
     ,
     {
         id: "item 13",
-        titulo: "item 13",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 13.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: 'No Definindo',
+            Peso: 'No definido', 
+            Cantidad: 'No definido',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Multikubik",
+            id: "Revestimientos"
         },
         precio: 1000
     }
     ,
     {
         id: "item 14",
-        titulo: "item 14",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 14.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado ',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: 'No definido',
+            Peso: 'No definido', 
+            Cantidad: 'No definido',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "GeoKubik",
+            id: "Revestimientos"
         },
         precio: 1000
     }
     ,
     {
         id: "item 15",
-        titulo: "item 15",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 15.jpg",
         info:{
             tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: 'No definido',
+            Peso: 'No definido', 
+            Cantidad: 'No definido',
             Cantidad: 'por pallet',
             Código: 'ER0000-126',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Piedra Irregular",
+            id: "Revestimientos"
         },
         precio: 1000
     }
     ,
     {
         id: "item 16",
-        titulo: "item 16",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 16.jpg",
         recomend:'Recomendado',
         info:{
-            tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '40x40x3 cm || Espesor 20mm +/- 1,5mm',
+            Peso: '7kg aproximadamente por unidad', 
+            Cantidad: '6.25 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Revestimiento",
+            nombre: "Quebracho cruzado",
             id: "Revestimientos"
         },
         precio: 1000
@@ -331,24 +332,407 @@ const productos = [
     ,
     {
         id: "item 17",
-        titulo: "item 17",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 17.jpg",
         info:{
-            tipo:'Revestimiento de pared',
-            Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '60x14,5x3 cm',
-            Peso: '5kg aproximadamente por unidad', 
-            Cantidad: '11,50 unidades por m2',
+            Medida: '50x13,5x2,5 cm || Espesor 25mm +/- 1,5mm',
+            Peso: '4.5kg aproximadamente por unidad', 
+            Cantidad: '15 unidades por m2',
             Cantidad: 'por pallet',
-            Código: 'ER0000-126',
+            Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Loseta",
-            id: "Pisos"
+            nombre: "Símil quebracho y corteza",
+            id: "Revestimientos",
         },
         precio: 1000
     },
+    {
+        id: "item 18",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '60x20x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '7.2kg aproximadamente por unidad', 
+            Cantidad: '8.33 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Quebracho 60",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 19",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '60x20x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '9.7kg aproximadamente por unidad', 
+            Cantidad: '6.22 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Adoquín madera con Quebracho 60",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 20",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Deck Símil Madera (DSM)",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 21",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '1x0.12x0.04 mts || Espesor 40mm +/- 1,5mm',
+            Peso: '8.15kg aproximadamente por unidad', 
+            Cantidad: '7.41 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Pinotea",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 22",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '1x0.12x0.04 mts  || Espesor 40mm +/- 1,5mm',
+            Peso: '8.15 kg aproximadamente por unidad', 
+            Cantidad: '7.41 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Lapacho",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 23",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Deck antideslizante",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 24",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Laja",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 25",
+        titulo: "Revestimiento",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Adoquín Colonial",
+            id: "Revestimientos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 26",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmiente 50x25',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x25x6 cm || Espesor 60mm +/- 1,5mm',
+            Peso: '16kg aproximadamente por unidad', 
+            Cantidad: '8 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmientes simil madera",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 27",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmiente 50x30',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x30x7 cm || Espesor 70mm +/- 1,5mm',
+            Peso: '17kg aproximadamente por unidad', 
+            Cantidad: '6.7 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmientes simil madera",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 28",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmiente 1 metro',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '100x30x7 cm || Espesor 70mm +/- 1,5mm',
+            Peso: '35kg aproximadamente por unidad', 
+            Cantidad: '3.4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmientes simil madera",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+
+    {
+        id: "item 29",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Piedra',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '10x10x5 cm || Espesor 50mm +/- 1,5mm',
+            Peso: '1.3kg aproximadamente por unidad', 
+            Cantidad: '100 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Adoquin 10",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 30",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Bloque césped Rombo',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
+            Peso: '13kg aproximadamente por unidad', 
+            Cantidad: '8.2 unidades por m2',
+            Cantidad: 'por pallet 70',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Bloque césped Rombo",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 31",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Bloque césped Redondo',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
+            Peso: '13kg aproximadamente por unidad', 
+            Cantidad: '8.2 unidades por m2',
+            Cantidad: 'por pallet 70',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Bloque césped Redondo",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 32",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Bloque césped Recto',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
+            Peso: '13kg aproximadamente por unidad', 
+            Cantidad: '8.2 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Bloque césped Recto",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 33",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmiente 1 metro',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '20x10x8 cm || 80mm +/- 1,5mm',
+            Peso: '1.3kg aproximadamente por unidad', 
+            Cantidad: '50 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Adoquín intertrabado",
+            id: "Jardin",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 34",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmientes simil madera',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '50x25x6 cm || 60mm +/- 1,5mm',
+            Peso: '16kg aproximadamente por unidad', 
+            Cantidad: '8 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmiente 50x25",
+            id: "Atermicos",
+        },
+        precio: 1000
+    },
+    
+    {
+        id: "item 35",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmientes simil madera',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '50x30x7 cm || 70mm +/- 1,5mm',
+            Peso: '17kg aproximadamente por unidad', 
+            Cantidad: '6.7 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmiente 50x30",
+            id: "Atermicos",
+        },
+        precio: 1000
+    },
+    {
+        id: "item 36",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        info:{
+            tipo:'Durmientes simil madera',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '100x30x7 cm || 70mm +/- 1,5mm',
+            Peso: '35kg aproximadamente por unidad', 
+            Cantidad: '3.4 unidades por m2',
+            Cantidad: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmiente 1 metro",
+            id: "Atermicos",
+        },
+        precio: 1000
+    },
+
             
 ];
 
@@ -434,7 +818,7 @@ function cargarProductos(productosElegidos){
             </figcaption>
         </figure>
             <div class="producto-detalles">
-                <h3 class="producto-titulo ">${producto.titulo}</h3>
+                <h3 class="producto-titulo ">${producto.categoria.nombre}</h3>
                 <p class="producto-precio">${producto.precio}$</p>
                 <button id="${producto.id}" class="producto-agregar">Agregar al carrito</button>
             </div>
@@ -471,7 +855,7 @@ botonesCategorias.forEach(boton =>{
        if (e.currentTarget.id != "todos"){
 
             const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
-            tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+            tituloPrincipal.innerText = productoCategoria.titulo;
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
