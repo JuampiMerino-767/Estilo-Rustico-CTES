@@ -290,6 +290,7 @@ main {
     border-radius: .75rem;
     
 }
+
 .producto-imagen:hover{
     opacity: 0.4;
     -webkit-transition: opacity 500ms;
@@ -621,6 +622,10 @@ main {
         width: 100%;
         border-radius: 15px;
         
+    }
+    .producto-imagen{
+        width: 100%;
+        height: 300px;
     }
  
 }

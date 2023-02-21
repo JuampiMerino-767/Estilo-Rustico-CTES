@@ -755,6 +755,7 @@ function cargarProductos(productosElegidos){
 
         const div = document.createElement('div');
         div.classList.add('producto');
+  
         div.classList.add('flipInX')
         div.innerHTML = `
 
