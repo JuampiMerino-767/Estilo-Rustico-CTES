@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <!--AOS ANIMATE-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Otra Libreria de animaciones-->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Estilo Rustico</title>
@@ -60,12 +64,12 @@
         
         <div class="box-container">
 
-            <div class="box animate__animated animate__fadeInLeft">
+            <div data-aos="fade-right" class="box">
                 <i class="fab fa-facebook"></i>
                 <h3>Facebook</h3>
                 
             </div>
-            <div class="box animate__animated animate__fadeInLeft">
+            <div data-aos="fade-right" class="box">
                 <i class="fab fa-instagram"></i>
                 <h3>Instagram</h3>
 
@@ -112,18 +116,18 @@
         
         <div class="box-container">
 
-            <div class="box animate__animated animate__flipInX">
+            <div data-aos="zoom-in-up" class="box">
                 <ion-icon class="icon-cash" name="wallet-outline"></ion-icon>
                 <h3>Efectivo</h3>
                 
             </div>
-            <div class="box animate__animated animate__flipInX">
+            <div data-aos="zoom-in-up" class="box">
                 <ion-icon class="icon-cash" name="card-outline"></ion-icon>
                 <h3>Tarjetas</h3>
 
             </div>
             
-            <div class="box animate__animated animate__flipInX">
+            <div data-aos="zoom-in-up" class="box">
                 <ion-icon class="icon-cash" name="qr-code-outline"></ion-icon>
                 <h3>Mercado Pago</h3>
 
@@ -138,20 +142,20 @@
             <div class="box-container">
                 <h2 class="title-icon"><i class="fa-solid fa-circle-exclamation"></i></h2>
     
-                <div class="box animate__animated animate__zoomIn ">
+                <div data-aos="zoom-in-up" class="box  ">
                     <h2 id="title-nos" class="title ">Horarios de atencion</h2>
                     <p >Horarios de atencion en fabrica: de lunes a viernes de 7:30 a 15:00hs.
                     </p>
                     
                 </div>
                 <h2 class="title-icon"><i class="fa-solid fa-car"></i></h2>
-                <div class="box box-info animate__animated animate__zoomIn">
+                <div data-aos="zoom-in-up" class="box box-info ">
                     <h2 id="title-nos" class="title ">Retiro de mercaderia</h2>
                     <p >Retiro de mercaderia en fabrica: de lunes a viernes de 8:00 a 14:00hs.
                     </p>
                 </div>
                 <h2 class="title-icon"><i class="fa-solid fa-earth-americas"></i></h2>
-                <div class="box box-info animate__animated animate__zoomIn">
+                <div data-aos="zoom-in-up" class="box box-info ">
                     <h2 id="title-nos" class="title ">Atencion Online</h2>
                     <p >Atencion online de lunes a viernes de 9 a 17:00hs, sabados sin atencion online.
                     </p>
@@ -219,6 +223,10 @@
     <script src="./assets/js/productos-recomendados.js"></script>
     <script src="./assets/js/profile-card.js"></script>
     <script src="./assets_catalogo/JS/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

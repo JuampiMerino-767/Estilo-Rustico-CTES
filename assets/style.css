@@ -1,6 +1,7 @@
 
 
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     border: 0;
@@ -104,6 +105,8 @@ body {
     right: -200px;  
     font-size: 39px;
     color: #ffff;
+    background-color: #000;
+    border-radius: 50%;
 }
 
 #title-prin{
