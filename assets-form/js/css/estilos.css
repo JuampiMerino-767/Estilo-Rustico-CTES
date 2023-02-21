@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
   margin: 0;
-  font-family: sans-serif;
   background-image: url(./fondo.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
@@ -30,7 +30,7 @@ body {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  /*border: 1px solid rgba(109, 86, 10, 0.7);*/
+
 }
 
 .formulario__titulo,
@@ -51,31 +51,29 @@ body {
 .formulario__label {
   display: block;
   width: 100%;
-  font-size: 1, 3em;
+  font-size: 1,5em;
 }
 .formulario__input {
   padding: 10px;
   background: transparent;
-  /* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
-  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  border: none;
+  background-color: #e7d3ad;
   margin-bottom: 15px;
   border-radius: 10px;
+  height: 45px;
 }
 .formulario__input:focus {
-  /*outline: 1px solid rgba(0,0,0,1);*/
+
   outline: none;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
 }
-/*.formulario__input:focus + .formulario__label{
-    margin-top: -120px;
-}*/
+
 .formulario__label {
   padding-left: 15px;
-  /*position: absolute;*/
-  /*margin-top: -78px;*/
-  /*z-index: -20;*/
+  
   color: rgba(0, 0, 0, 1);
-  /*transition: all 0.2s;*/
+
   margin: 2px;
 }
 .formulario__submit {
@@ -114,4 +112,20 @@ body {
 }
 #respuesta.send {
   color: green;
+}
+.formulario label{
+  font-weight: 600;
+}
+.formulario input{
+  font-weight: 600;
+}
+.formulario input:hover{
+  transition: .3s;
+  border: 1px solid #000;
+  transform: scale(1.1);
+}
+@media (max-width: 660px) {
+  .formulario{
+    width: 350px;
+  }
 }
