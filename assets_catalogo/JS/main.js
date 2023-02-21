@@ -821,12 +821,14 @@ botonesCategorias.forEach(boton =>{
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
+            
 
          }else{
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
+            
        }
-
+    
     })
 });
 
@@ -882,7 +884,7 @@ function agregarAlCarrito (e){
           fontSize: ".75rem"
         },
         offset: {
-            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            x: '1rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
             y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
           },
         onClick: function(){} // Callback after click
@@ -936,3 +938,24 @@ setTimeout(function(){
     loader.classList.add('hidden');
 },1500);
 
+/*Funcion para mostrar recomendados */
+
+const btnRecomend = document.querySelector('.btn-recomend');
+const btnOffert = document.querySelector('.btn-offert');
+const btnTodos = document.querySelector('.btn-gral');
+
+btnTodos.addEventListener('click',function(){
+    const productosGral = productos.filter(producto => producto.categoria.id == producto.categoria.id);
+    cargarProductos(productosGral)
+})
+
+btnOffert.addEventListener('click',function(){
+    const productosOffert = productos.filter(producto => producto.offert == 'Oferta');
+    cargarProductos(productosOffert)
+})
+
+
+btnRecomend.addEventListener('click',function(){
+    const productosRecomendados = productos.filter(producto => producto.recomend == 'Recomendado');
+    cargarProductos(productosRecomendados)
+})
