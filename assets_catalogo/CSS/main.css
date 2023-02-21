@@ -152,6 +152,13 @@ main {
     gap: 1rem;
     
 }
+.producto{
+    box-shadow: -4px 4px 11px 1px rgba(0,0,0,0.73);
+    -webkit-box-shadow: -4px 4px 11px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: -4px 4px 11px 1px rgba(0,0,0,0.73);
+    border-radius: 15px;
+}
+
 
 .info-producto{
     font-size: 14px;
@@ -171,6 +178,9 @@ main {
     background-color: rgba(248, 248, 248, .8);
 }
 
+/*Efecto Zoom*/
+
+/*
 .zoomIn {
     -webkit-animation-name: producto-anim;
     animation-name: producto-anim;
@@ -200,18 +210,79 @@ main {
     }
     } 
 
+*/
+.flipInX {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes flipInX {
+    0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+    }
+    40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    }
+    60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+    }
+    80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    }
+    }
+    @keyframes flipInX {
+    0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+    }
+    40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    }
+    60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+    }
+    80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    }
+    } 
+  ×
 
 
 
-.producto{
-    
-    box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
-    -webkit-box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
-    -moz-box-shadow: 3px 5px 8px 5px rgba(0,0,0,0.56);
-    background: rgba(58, 47, 1, 0.75);
-    padding: 8px;
-    border-radius: 15px;
-}
+
+
 
 .producto-imagen {
     width: 100%;
@@ -276,7 +347,7 @@ main {
     position: fixed;
     top: -20px;
     left: 5px;
-    width: 165px;
+    width: 175px;
     z-index: 999;
     color: var(--clr-gray);
     background-color: rgba(0, 0, 0, .75);
@@ -322,13 +393,14 @@ main {
     border-radius: 1rem;
 }
 
+
 .carrito-producto-imagen {
-    width: 4rem;
+    width: 3rem;
     border-radius: 1rem;
 }
 
 .carrito-producto small {
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 .carrito-producto-eliminar {
@@ -336,7 +408,10 @@ main {
     background-color: transparent;
     color: var(--clr-red);
     cursor: pointer;
+    font-size: 24px;
+    margin-left: 55px;
 }
+
 
 .carrito-acciones {
     display: flex;
@@ -395,7 +470,26 @@ main {
 }
 
 
-
+.filter-card{
+    display: flex;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.filter-card button{
+    border: none;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    height: 30px;
+}
+.filter-card button:hover{
+    transition: .3s ease;
+    background-color: rgba(65, 35, 1, 0.7);
+}
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 1000px) {
@@ -495,7 +589,7 @@ main {
         display: block;
         position: absolute;
         top: 1rem;
-        right: 1rem;
+        right: .3rem;
     }
 
     .carrito-producto {

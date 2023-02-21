@@ -163,8 +163,8 @@ const productos = [
         precio: 1000
     },
     {
-        id: "Revestimiento",
-        titulo: "item 9",
+        id: "item 9",
+        titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 9.jpg",
         info:{
             tipo:'Revestimiento de pared',
@@ -755,7 +755,7 @@ function cargarProductos(productosElegidos){
 
         const div = document.createElement('div');
         div.classList.add('producto');
-        div.classList.add('zoomIn')
+        div.classList.add('flipInX')
         div.innerHTML = `
 
             <figure class="imghvr-reveal-down">
