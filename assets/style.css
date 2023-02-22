@@ -353,6 +353,8 @@ p {
     width: 250px;
     border-radius: 15px;
    }
+   
+
 .contact {
     padding-top: 20px;
     background: #171717;
@@ -922,7 +924,7 @@ p {
         width: 40px;
         transform: translateX(200px);
         position: relative;
-        left: 50px;
+        left: 25px;
     }
    
     .box-container{

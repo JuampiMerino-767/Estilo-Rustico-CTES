@@ -10,7 +10,7 @@ const productos = [
             Medida: '60x14,5x3 cm',
             Peso: '5kg aproximadamente por unidad', 
             Cantidad: '11,50 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-126',
         },
         categoria: {
@@ -31,7 +31,7 @@ const productos = [
             Medida: '50x13,5x2,5 cm',
             Peso: '4.5kg aproximadamente por unidad', 
             Cantidad: '15 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-048 ',
         },
         categoria: {
@@ -52,7 +52,7 @@ const productos = [
             Medida: '57x19x2,5 cm',
             Peso: '4.6 Kg aproximadamente por unidad', 
             Cantidad: '9 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-079',
         },
         categoria: {
@@ -72,7 +72,7 @@ const productos = [
             Medida: '44x49x3,5 cm',
             Peso: '52.2 Kg aproximadamentepor unidad', 
             Cantidad: '36 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-117',
         },
         categoria: {
@@ -92,7 +92,7 @@ const productos = [
             Medida: '40x20x25 cm',
             Peso: '3.5 Kg aproximadamente por unidad', 
             Cantidad: '12,5 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-126',
         },
         categoria: {
@@ -112,7 +112,7 @@ const productos = [
             Medida: '37x59x3+/-4 cm',
             Peso: '23 Kg aproximadamente por unidad', 
             Cantidad: '40 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-083',
         },
         categoria: {
@@ -133,7 +133,7 @@ const productos = [
             Medida: '10x27,5x3 cm',
             Peso: '4.6kg aproximadamente por unidad', 
             Cantidad: '36 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-101',
         },
         categoria: {
@@ -153,7 +153,7 @@ const productos = [
             Medida: '10x10x2 cm',
             Peso: '5kg aproximadamente por unidad', 
             Cantidad: '100 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-037',
         },
         categoria: {
@@ -173,7 +173,7 @@ const productos = [
             Medida: '44x60x3,5+/-4 cm',
             Peso: '1.2kg aproximadamente por unidad', 
             Cantidad: 'No-definido',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-097',
         },
         categoria: {
@@ -193,7 +193,7 @@ const productos = [
             Medida: '28x10x3 cm',
             Peso: '4.6kg aproximadamente por unidad', 
             Cantidad: '36 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -214,7 +214,7 @@ const productos = [
             Medida: '14,5x50x2 cm',
             Peso: '5kg aproximadamente por unidad', 
             Cantidad: '14 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -225,7 +225,7 @@ const productos = [
     }
     ,
     {
-        id: "Revestimiento",
+        id: "item 12",
         titulo: "Revestimiento",
         imagen: "./assets_catalogo/IMG/item 12.jpg",
         info:{
@@ -235,7 +235,7 @@ const productos = [
             Medida: 'No definido',
             Peso: '1.9kg aproximadamente por unidad', 
             Cantidad: '17 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-091',
         },
         categoria: {
@@ -256,7 +256,7 @@ const productos = [
             Medida: 'No Definindo',
             Peso: 'No definido', 
             Cantidad: 'No definido',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -277,7 +277,7 @@ const productos = [
             Medida: 'No definido',
             Peso: 'No definido', 
             Cantidad: 'No definido',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -298,7 +298,7 @@ const productos = [
             Medida: 'No definido',
             Peso: 'No definido', 
             Cantidad: 'No definido',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-126',
         },
         categoria: {
@@ -320,7 +320,7 @@ const productos = [
             Medida: '40x40x3 cm || Espesor 20mm +/- 1,5mm',
             Peso: '7kg aproximadamente por unidad', 
             Cantidad: '6.25 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -341,7 +341,7 @@ const productos = [
             Medida: '50x13,5x2,5 cm || Espesor 25mm +/- 1,5mm',
             Peso: '4.5kg aproximadamente por unidad', 
             Cantidad: '15 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -353,7 +353,7 @@ const productos = [
     {
         id: "item 18",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 18.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -361,7 +361,7 @@ const productos = [
             Medida: '60x20x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '7.2kg aproximadamente por unidad', 
             Cantidad: '8.33 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -373,7 +373,7 @@ const productos = [
     {
         id: "item 19",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 19.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -381,7 +381,7 @@ const productos = [
             Medida: '60x20x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '9.7kg aproximadamente por unidad', 
             Cantidad: '6.22 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -393,7 +393,7 @@ const productos = [
     {
         id: "item 20",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 20.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -401,7 +401,7 @@ const productos = [
             Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '15kg aproximadamente por unidad', 
             Cantidad: '4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -413,7 +413,7 @@ const productos = [
     {
         id: "item 21",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 21.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -421,7 +421,7 @@ const productos = [
             Medida: '1x0.12x0.04 mts || Espesor 40mm +/- 1,5mm',
             Peso: '8.15kg aproximadamente por unidad', 
             Cantidad: '7.41 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -433,7 +433,7 @@ const productos = [
     {
         id: "item 22",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 22.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -441,7 +441,7 @@ const productos = [
             Medida: '1x0.12x0.04 mts  || Espesor 40mm +/- 1,5mm',
             Peso: '8.15 kg aproximadamente por unidad', 
             Cantidad: '7.41 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -453,7 +453,7 @@ const productos = [
     {
         id: "item 23",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 23.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -461,7 +461,7 @@ const productos = [
             Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '15kg aproximadamente por unidad', 
             Cantidad: '4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -473,7 +473,7 @@ const productos = [
     {
         id: "item 24",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 24.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -481,7 +481,7 @@ const productos = [
             Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '15kg aproximadamente por unidad', 
             Cantidad: '4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -493,7 +493,7 @@ const productos = [
     {
         id: "item 25",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 25.jpg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
@@ -501,7 +501,7 @@ const productos = [
             Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
             Peso: '15kg aproximadamente por unidad', 
             Cantidad: '4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -513,7 +513,7 @@ const productos = [
     {
         id: "item 26",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 26.jpg",
         info:{
             tipo:'Durmiente 50x25',
             Material: 'Hormigón pigmentado',
@@ -521,7 +521,7 @@ const productos = [
             Medida: '50x25x6 cm || Espesor 60mm +/- 1,5mm',
             Peso: '16kg aproximadamente por unidad', 
             Cantidad: '8 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -533,7 +533,7 @@ const productos = [
     {
         id: "item 27",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 27.jpg",
         info:{
             tipo:'Durmiente 50x30',
             Material: 'Hormigón pigmentado',
@@ -541,7 +541,7 @@ const productos = [
             Medida: '50x30x7 cm || Espesor 70mm +/- 1,5mm',
             Peso: '17kg aproximadamente por unidad', 
             Cantidad: '6.7 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -553,7 +553,7 @@ const productos = [
     {
         id: "item 28",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 28.jpg",
         info:{
             tipo:'Durmiente 1 metro',
             Material: 'Hormigón pigmentado',
@@ -561,7 +561,7 @@ const productos = [
             Medida: '100x30x7 cm || Espesor 70mm +/- 1,5mm',
             Peso: '35kg aproximadamente por unidad', 
             Cantidad: '3.4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -574,7 +574,7 @@ const productos = [
     {
         id: "item 29",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 29.jpg",
         info:{
             tipo:'Piedra',
             Material: 'Hormigón pigmentado',
@@ -582,7 +582,7 @@ const productos = [
             Medida: '10x10x5 cm || Espesor 50mm +/- 1,5mm',
             Peso: '1.3kg aproximadamente por unidad', 
             Cantidad: '100 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -594,7 +594,7 @@ const productos = [
     {
         id: "item 30",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 30.jpg",
         info:{
             tipo:'Bloque césped Rombo',
             Material: 'Hormigón pigmentado',
@@ -602,7 +602,7 @@ const productos = [
             Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
             Peso: '13kg aproximadamente por unidad', 
             Cantidad: '8.2 unidades por m2',
-            Cantidad: 'por pallet 70',
+            Pallet: 'por pallet 70',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -614,7 +614,7 @@ const productos = [
     {
         id: "item 31",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 31.jpg",
         info:{
             tipo:'Bloque césped Redondo',
             Material: 'Hormigón pigmentado',
@@ -622,7 +622,7 @@ const productos = [
             Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
             Peso: '13kg aproximadamente por unidad', 
             Cantidad: '8.2 unidades por m2',
-            Cantidad: 'por pallet 70',
+            Pallet: 'por pallet 70',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -634,7 +634,7 @@ const productos = [
     {
         id: "item 32",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 32.jpg",
         info:{
             tipo:'Bloque césped Recto',
             Material: 'Hormigón pigmentado',
@@ -642,7 +642,7 @@ const productos = [
             Medida: '35x35x6 cm || Espesor 60mm +/- 1,5mm',
             Peso: '13kg aproximadamente por unidad', 
             Cantidad: '8.2 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -654,7 +654,7 @@ const productos = [
     {
         id: "item 33",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 33.jpg",
         info:{
             tipo:'Durmiente 1 metro',
             Material: 'Hormigón pigmentado',
@@ -662,7 +662,7 @@ const productos = [
             Medida: '20x10x8 cm || 80mm +/- 1,5mm',
             Peso: '1.3kg aproximadamente por unidad', 
             Cantidad: '50 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -674,7 +674,7 @@ const productos = [
     {
         id: "item 34",
         titulo: "Atermico",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 34.jpg",
         info:{
             tipo:'Durmientes simil madera',
             Material: 'Bicapa atérmico',
@@ -682,7 +682,7 @@ const productos = [
             Medida: '50x25x6 cm || 60mm +/- 1,5mm',
             Peso: '16kg aproximadamente por unidad', 
             Cantidad: '8 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -695,7 +695,7 @@ const productos = [
     {
         id: "item 35",
         titulo: "Atermico",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 35.jpg",
         info:{
             tipo:'Durmientes simil madera',
             Material: 'Bicapa atérmico',
@@ -703,7 +703,7 @@ const productos = [
             Medida: '50x30x7 cm || 70mm +/- 1,5mm',
             Peso: '17kg aproximadamente por unidad', 
             Cantidad: '6.7 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -715,7 +715,7 @@ const productos = [
     {
         id: "item 36",
         titulo: "Atermico",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
+        imagen: "./assets_catalogo/IMG/item 36.jpg",
         info:{
             tipo:'Durmientes simil madera',
             Material: 'Bicapa atérmico',
@@ -723,7 +723,7 @@ const productos = [
             Medida: '100x30x7 cm || 70mm +/- 1,5mm',
             Peso: '35kg aproximadamente por unidad', 
             Cantidad: '3.4 unidades por m2',
-            Cantidad: 'por pallet',
+            Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
@@ -760,6 +760,7 @@ function cargarProductos(productosElegidos){
         div.innerHTML = `
 
             <figure class="imghvr-reveal-down">
+            
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <figcaption>
                 <h3 class="producto-titulo ">${producto.titulo}</h3>
@@ -776,16 +777,19 @@ function cargarProductos(productosElegidos){
                 <br>
                 <p class="producto-precio">*Peso: ${producto.info.Peso}</p>
                 <hr>
-
+                <button id="${producto.id}" class="producto-agregar-info">Mas informacion</button>
             </figcaption>
         </figure>
             <div class="producto-detalles">
+            
                 <h3 class="producto-titulo ">${producto.categoria.nombre}</h3>
                 <p class="producto-precio">${producto.precio}$</p>
+         
                 <button id="${producto.id}" class="producto-agregar">Agregar al carrito</button>
             </div>
         `
         contenedorProductos.append(div);
+
     })
     actualizasBotonesAgregar()
     
@@ -821,6 +825,8 @@ botonesCategorias.forEach(boton =>{
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
+            location.reload();
+
             
 
          }else{
@@ -936,7 +942,7 @@ const loader = document.querySelector('.loader-content')
 
 setTimeout(function(){
     loader.classList.add('hidden');
-},1500);
+},1000);
 
 /*Funcion para mostrar recomendados */
 
@@ -947,15 +953,73 @@ const btnTodos = document.querySelector('.btn-gral');
 btnTodos.addEventListener('click',function(){
     const productosGral = productos.filter(producto => producto.categoria.id == producto.categoria.id);
     cargarProductos(productosGral)
+    location.reload();
 })
 
 btnOffert.addEventListener('click',function(){
     const productosOffert = productos.filter(producto => producto.offert == 'Oferta');
     cargarProductos(productosOffert)
+    location.reload();
 })
 
 
 btnRecomend.addEventListener('click',function(){
     const productosRecomendados = productos.filter(producto => producto.recomend == 'Recomendado');
     cargarProductos(productosRecomendados)
+    location.reload();
 })
+
+/*Funcion para dar mas informacion de cada producto */
+
+const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
+const arrayBtnInfo = Array.apply(null,btnMasInfo);
+console.log(arrayBtnInfo);
+
+
+arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
+  let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
+  let productoExtraido = productos.find(producto => producto == btnClickeado);
+  let filterCards = document.querySelector('.filter-card');
+
+  tituloPrincipal.innerText = '';
+  
+    contenedorProductos.innerHTML = `
+                        <div class="contenedor-producto-ampliado flipInX">
+                        <div class="producto-ampliado">
+                        <button><ion-icon name="arrow-back-outline"></ion-icon></button>
+                            <img src="${productoExtraido.imagen}" alt="">
+                            <button><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                    
+                        <div class="info-producto-ampliado slideInRight">
+                        <h1>${productoExtraido.categoria.nombre}</h1>
+                        <h2>${productoExtraido.info.tipo}</h2>
+                        <p>*Material: ${productoExtraido.info.Material}</p>
+                        <hr>
+                        <p>*Peso: ${productoExtraido.info.Peso}</p>
+                        <hr>
+                        <p>*Medida: ${productoExtraido.info.Medida}</p>
+                        <hr>
+                        <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
+                        <hr>
+                        <h4>$${productoExtraido.precio}</h4>
+                        <hr>
+                        <h6>En 3,6 y 12 Cuotas</h6>
+                        <div class="cart-info-ampliado">
+                        <h5 ><ion-icon name="cart-outline"></ion-icon></h5>
+                        <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span>
+                        </div>
+                        <div class="btn-add">
+                             <button><ion-icon name="remove-outline"></ion-icon></button>
+                            <button><ion-icon name="add-outline"></ion-icon></button>
+                         </div>
+                        </div>
+                        </div>
+                        
+                        </div> 
+                        `
+                        
+                        
+ })
+);
