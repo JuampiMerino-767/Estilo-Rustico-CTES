@@ -843,7 +843,9 @@ main {
     .producto-agregar-info{
         display: none;
     }
-   
+   .loader-content{
+    display: none;
+   }
 }
 
 
