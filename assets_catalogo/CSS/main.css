@@ -846,6 +846,9 @@ main {
    .loader-content{
     display: none;
    }
+   .filter-card{
+    display: none;
+   }
 }
 
 

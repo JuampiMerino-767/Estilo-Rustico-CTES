@@ -953,20 +953,20 @@ const btnTodos = document.querySelector('.btn-gral');
 btnTodos.addEventListener('click',function(){
     const productosGral = productos.filter(producto => producto.categoria.id == producto.categoria.id);
     cargarProductos(productosGral)
-    location.reload();
+    
 })
 
 btnOffert.addEventListener('click',function(){
     const productosOffert = productos.filter(producto => producto.offert == 'Oferta');
     cargarProductos(productosOffert)
-    location.reload();
+    
 })
 
 
 btnRecomend.addEventListener('click',function(){
     const productosRecomendados = productos.filter(producto => producto.recomend == 'Recomendado');
     cargarProductos(productosRecomendados)
-    location.reload();
+    
 })
 
 /*Funcion para dar mas informacion de cada producto */
