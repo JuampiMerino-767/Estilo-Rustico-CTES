@@ -825,7 +825,7 @@ botonesCategorias.forEach(boton =>{
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
-            location.reload();
+            
 
             
 
@@ -973,6 +973,7 @@ btnRecomend.addEventListener('click',function(){
 
 const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
 const arrayBtnInfo = Array.apply(null,btnMasInfo);
+
 console.log(arrayBtnInfo);
 
 
@@ -980,8 +981,10 @@ arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
   let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
   let productoExtraido = productos.find(producto => producto == btnClickeado);
   let filterCards = document.querySelector('.filter-card');
+  
+filterCards.innerHTML = '<button class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>';
 
-  tituloPrincipal.innerText = '';
+tituloPrincipal.innerText = '';
   
     contenedorProductos.innerHTML = `
                         <div class="contenedor-producto-ampliado flipInX">
@@ -1019,7 +1022,13 @@ arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
                         
                         </div> 
                         `
-                        
-                        
+
+                        let btnReturn = document.querySelector('.btn-return') 
+                       btnReturn.addEventListener('click',function(){
+                        cargarProductos(productos);
+                        location.reload()
+                       })
+      
+        
  })
 );
