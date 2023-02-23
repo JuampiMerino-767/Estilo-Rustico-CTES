@@ -974,8 +974,6 @@ btnRecomend.addEventListener('click',function(){
 const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
 const arrayBtnInfo = Array.apply(null,btnMasInfo);
 
-console.log(arrayBtnInfo);
-
 
 arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
   let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
@@ -1026,7 +1024,9 @@ tituloPrincipal.innerText = '';
                         let btnReturn = document.querySelector('.btn-return') 
                        btnReturn.addEventListener('click',function(){
                         location.reload()
-                        cargarProductos(productos);
+                        setTimeout(function(){
+                           cargarProductos(productos);
+                        },1000);
                         
                        })
       
