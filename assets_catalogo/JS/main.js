@@ -1025,7 +1025,7 @@ tituloPrincipal.innerText = '';
 
                         let btnReturn = document.querySelector('.btn-return') 
                        btnReturn.addEventListener('click',function(){
-                        location.reload()
+                        
                         cargarProductos(productos);
                         
                        })
