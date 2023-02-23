@@ -853,9 +853,7 @@ main {
   .contenedor-producto-ampliado button{
    display: none;
   }
-  main{
-    max-height: 100%;
-  }
+
    .producto-ampliado{
     display: flex;
     justify-content: center;
