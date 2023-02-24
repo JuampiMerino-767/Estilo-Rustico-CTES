@@ -372,4 +372,5 @@ const mostrasProductos = () =>{
         `
     })
 }
-mostrasProductos();
+
+mostrasProductos()
