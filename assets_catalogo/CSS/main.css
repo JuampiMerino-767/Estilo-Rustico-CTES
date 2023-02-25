@@ -470,6 +470,7 @@ main {
     align-items: center;
     position: relative;
     left: 0;
+
     
 }   
 .producto-ampliado img{
@@ -478,6 +479,12 @@ main {
     width: 100%;
     border-radius: 15px;
 }
+
+.producto-ampliado img:hover{
+    transform: scale(1.05); 
+    transition: transform 1s;
+}
+
 .producto-ampliado button{
     width: 100px;
     height: 50px;
@@ -869,6 +876,7 @@ main {
     width: 100%;
     
    }
+
    .producto-ampliado img{
     max-width: 90%;
    }
@@ -895,6 +903,9 @@ main {
    .btn-return{
     position: relative;
     top: -20px;
+   }
+   .btn-atermicos,.btn-revestimientos{
+    display: none;
    }
 }
 

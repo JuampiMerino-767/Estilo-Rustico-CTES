@@ -819,15 +819,7 @@ function cargarProductos(productosElegidos){
                     NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
                 }
             
-                
-            
-            
-                
-            
-                
-           
-            
-            
+
             tituloPrincipal.innerText = '';
                 contenedorProductos.innerHTML = `
                                     <div class="contenedor-producto-ampliado flipInX">
@@ -1057,6 +1049,8 @@ setTimeout(function(){
 const btnRecomend = document.querySelector('.btn-recomend');
 const btnOffert = document.querySelector('.btn-offert');
 const btnTodos = document.querySelector('.btn-gral');
+const btnRevestimientos = document.querySelector('.btn-revestimientos');
+const btnAtermicos = document.querySelector('.btn-atermicos');
 
 btnTodos.addEventListener('click',function(){
     cargarProductos(productos)
@@ -1082,6 +1076,25 @@ btnRecomend.addEventListener('click',function(){
     tituloPrincipal.innerText = 'Productos Recomendados'
     
 })
+
+btnRevestimientos.addEventListener('click',function(){
+    const productosRevestimientos = productos.filter(producto => producto.titulo == 'Revestimiento');
+
+    cargarProductos(productosRevestimientos);
+
+    tituloPrincipal.innerText = 'Revestimientos de piso y pared'
+    
+})
+
+btnAtermicos.addEventListener('click',function(){
+    const productosAtermicos = productos.filter(producto => producto.titulo == 'Atermico');
+
+    cargarProductos(productosAtermicos)
+
+    tituloPrincipal.innerText = 'Atermicos'
+    
+})
+
 
 
 
