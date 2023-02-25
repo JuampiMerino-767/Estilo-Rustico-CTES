@@ -795,11 +795,111 @@ function cargarProductos(productosElegidos){
             </div>
         `
         contenedorProductos.append(div);
-       
-    })
-    actualizasBotonesAgregar()
-   
-};
+
+
+
+
+        /*Funcion para dar mas informacion de cada producto */
+
+        const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
+        const arrayBtnInfo = Array.apply(null,btnMasInfo);
+
+
+
+
+
+            arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
+                let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
+                let productoExtraido = productos.find(producto => producto == btnClickeado);
+                let filterCards = document.querySelector('.filter-card');
+                let numeroCarrito = localStorage.getItem("productos-en-carrito");
+                numeroCarrito = JSON.parse(numeroCarrito);
+                let NuevoNumero = 0;
+                for(i=0;i<numeroCarrito.length;i++){
+                    NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
+                }
+            
+                
+            
+            
+                
+            
+                
+           
+            
+            
+            tituloPrincipal.innerText = '';
+                contenedorProductos.innerHTML = `
+                                    <div class="contenedor-producto-ampliado flipInX">
+                                    <div class="producto-ampliado">
+                                    <button id="previous"><ion-icon name="arrow-back-outline"></ion-icon></button>
+                                        <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
+                                        <button id="next"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="info-producto-ampliado slideInRight">
+                                    <h1>${productoExtraido.categoria.nombre}</h1>
+                                    <h2>${productoExtraido.info.tipo}</h2>
+                                    <p>*Material: ${productoExtraido.info.Material}</p>
+                                    <hr>
+                                    <p>*Peso: ${productoExtraido.info.Peso}</p>
+                                    <hr>
+                                    <p>*Medida: ${productoExtraido.info.Medida}</p>
+                                    <hr>
+                                    <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
+                                    <hr>
+                                    <h4>$${productoExtraido.precio}</h4>
+                                    <hr>
+                                    <h6>En 3,6 y 12 Cuotas</h6>
+                                    <div class="cart-info-ampliado">
+                                    <h5 ><ion-icon name="cart-outline"></ion-icon></h5>
+                                    <span id="numerito-mobile" class="numerito class="boton-categoria"">${NuevoNumero}</span>
+                                    </div>
+                                    <div class="btn-add">
+                                        <button class="btn-menos"><ion-icon name="remove-outline"></ion-icon></button>
+                                        <button class="btn-mas"><ion-icon name="add-outline"></ion-icon></button>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                                    </div> 
+                                    `
+
+
+                                    
+            
+                                    //Actualizar numero en caso de agregar o restar 
+            
+                                    let mas = document.querySelector('.btn-mas');
+                                    let menos = document.querySelector('.btn-menos');
+                                    let numerito = document.querySelector('.numerito')
+            
+                                    
+                                    
+                                    
+            
+                                    let btnReturn = document.querySelector('.btn-return') 
+                                    btnReturn.addEventListener('click',function(){
+                                    location.reload()
+                                    setTimeout(function(){
+                                        cargarProductos(productos);
+                                    },1000);
+                                    
+                                    })
+            
+                    
+                                    
+            })
+            
+            
+            );
+            
+            
+            })
+            actualizasBotonesAgregar()
+        
+        };
 
 /* 
 <figure class="imghvr-fade">
@@ -983,101 +1083,7 @@ btnRecomend.addEventListener('click',function(){
     
 })
 
-/*Funcion para dar mas informacion de cada producto */
-
-const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
-const arrayBtnInfo = Array.apply(null,btnMasInfo);
 
 
-const mostrarInfo = ()=>{
-    arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
-        let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
-        let productoExtraido = productos.find(producto => producto == btnClickeado);
-        let numeroCarrito = localStorage.getItem("productos-en-carrito");
-        numeroCarrito = JSON.parse(numeroCarrito);
-        let NuevoNumero = 0;
-          for(i=0;i<numeroCarrito.length;i++){
-              NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
-          }
-      
-        
-       
-      
-        
-        let filterCards = document.querySelector('.filter-card');
-        
-      filterCards.innerHTML = '<button class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>';
-      
-      
-      tituloPrincipal.innerText = '';
-          contenedorProductos.innerHTML = `
-                              <div class="contenedor-producto-ampliado flipInX">
-                              <div class="producto-ampliado">
-                              <button id="previous"><ion-icon name="arrow-back-outline"></ion-icon></button>
-                                  <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
-                                  <button id="next"><ion-icon name="arrow-forward-outline"></ion-icon></button>
-                                  </div>
-                              </div>
-                          
-                              <div class="info-producto-ampliado slideInRight">
-                              <h1>${productoExtraido.categoria.nombre}</h1>
-                              <h2>${productoExtraido.info.tipo}</h2>
-                              <p>*Material: ${productoExtraido.info.Material}</p>
-                              <hr>
-                              <p>*Peso: ${productoExtraido.info.Peso}</p>
-                              <hr>
-                              <p>*Medida: ${productoExtraido.info.Medida}</p>
-                              <hr>
-                              <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
-                              <hr>
-                              <h4>$${productoExtraido.precio}</h4>
-                              <hr>
-                              <h6>En 3,6 y 12 Cuotas</h6>
-                              <div class="cart-info-ampliado">
-                              <h5 ><ion-icon name="cart-outline"></ion-icon></h5>
-                              <span id="numerito-mobile" class="numerito class="boton-categoria"">${NuevoNumero}</span>
-                              </div>
-                              <div class="btn-add">
-                                   <button class="btn-menos"><ion-icon name="remove-outline"></ion-icon></button>
-                                  <button class="btn-mas"><ion-icon name="add-outline"></ion-icon></button>
-                               </div>
-                              </div>
-                              </div>
-                              
-                              </div> 
-                              `
 
-
-                              
-      
-                              //Actualizar numero en caso de agregar o restar 
-      
-                              let mas = document.querySelector('.btn-mas');
-                              let menos = document.querySelector('.btn-menos');
-                              let numerito = document.querySelector('.numerito')
-      
-                             
-                             
-                            
-      
-                              let btnReturn = document.querySelector('.btn-return') 
-                             btnReturn.addEventListener('click',function(){
-                              location.reload()
-                              setTimeout(function(){
-                                 cargarProductos(productos);
-                              },1000);
-                              
-                             })
-      
-              
-                             
-       })
-      
-      
-      );
-      
-}
-
-
-mostrarInfo()
 
