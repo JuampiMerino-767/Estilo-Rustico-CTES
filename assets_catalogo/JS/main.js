@@ -2,6 +2,12 @@ const productos = [
     {
         id: "item 1",
         titulo: "Revestimiento",
+        imagenes : [
+            {
+                id: 'item 1',
+                url:'./assets_catalogo/IMG/Mayken/2.png',
+            },   
+        ],
         imagen: "./assets_catalogo/IMG/item 1.jpg",
         info:{
             tipo:'Revestimiento de pared de Hormigon',
@@ -978,18 +984,29 @@ const arrayBtnInfo = Array.apply(null,btnMasInfo);
 arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
   let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
   let productoExtraido = productos.find(producto => producto == btnClickeado);
+  let numeroCarrito = localStorage.getItem("productos-en-carrito");
+  numeroCarrito = JSON.parse(numeroCarrito);
+  let NuevoNumero = 0;
+    for(i=0;i<numeroCarrito.length;i++){
+        NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
+    }
+
+  
+ 
+
+  
   let filterCards = document.querySelector('.filter-card');
   
 filterCards.innerHTML = '<button class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>';
 
+
 tituloPrincipal.innerText = '';
-  
     contenedorProductos.innerHTML = `
                         <div class="contenedor-producto-ampliado flipInX">
                         <div class="producto-ampliado">
-                        <button><ion-icon name="arrow-back-outline"></ion-icon></button>
-                            <img src="${productoExtraido.imagen}" alt="">
-                            <button><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                        <button id="previous"><ion-icon name="arrow-back-outline"></ion-icon></button>
+                            <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
+                            <button id="next"><ion-icon name="arrow-forward-outline"></ion-icon></button>
                             </div>
                         </div>
                     
@@ -1009,17 +1026,28 @@ tituloPrincipal.innerText = '';
                         <h6>En 3,6 y 12 Cuotas</h6>
                         <div class="cart-info-ampliado">
                         <h5 ><ion-icon name="cart-outline"></ion-icon></h5>
-                        <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span>
+                        <span id="numerito-mobile" class="numerito class="boton-categoria"">${NuevoNumero}</span>
                         </div>
                         <div class="btn-add">
-                             <button><ion-icon name="remove-outline"></ion-icon></button>
-                            <button><ion-icon name="add-outline"></ion-icon></button>
+                             <button class="btn-menos"><ion-icon name="remove-outline"></ion-icon></button>
+                            <button class="btn-mas"><ion-icon name="add-outline"></ion-icon></button>
                          </div>
                         </div>
                         </div>
                         
                         </div> 
                         `
+                        
+
+                        //Actualizar numero en caso de agregar o restar 
+
+                        let mas = document.querySelector('.btn-mas');
+                        let menos = document.querySelector('.btn-menos');
+                        let numerito = document.querySelector('.numerito')
+
+                       
+                       
+                      
 
                         let btnReturn = document.querySelector('.btn-return') 
                        btnReturn.addEventListener('click',function(){
@@ -1029,7 +1057,12 @@ tituloPrincipal.innerText = '';
                         },1000);
                         
                        })
-      
+
         
  })
+
+
+
 );
+
+
