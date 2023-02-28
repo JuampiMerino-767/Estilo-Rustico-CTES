@@ -816,7 +816,7 @@ p {
 
 
 /*MEDIAQUERIS*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .head{
         width: 100vw;
         padding: 0 12px;
@@ -1030,7 +1030,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-@media (max-width: 668px) {
+@media (max-width: 765px) {
     .card-container{
         display: grid;
         grid-template-columns: 1fr ;
@@ -1223,6 +1223,41 @@ p {
 }
 
 
+}
+@media (min-width: 810px) {
+    .content{
+        height: 80vh;
+    }
+    .info-content i{
+        left: 0;
+        top: 10px;
+    }
+    
+    .maps{
+        width: 60%;
+    }
+    
+}
+@media (min-width: 767px) {
+    .content{
+        height: 90vh;
+    }
+    .content i{
+        left: 0;
+        top: 15px;
+    }
+    .maps{
+        width: 60%;
+    }
+}
+    
+@media (min-width: 1000px) {
+    
+    .content{
+        height: 100vh;
+    }
+   
+   
 }
 @media (max-width: 1300px) {
     .card-container{

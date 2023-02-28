@@ -811,14 +811,16 @@ function cargarProductos(productosElegidos){
             arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
                 let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
                 let productoExtraido = productos.find(producto => producto == btnClickeado);
-                let filterCards = document.querySelector('.filter-card');
                 let numeroCarrito = localStorage.getItem("productos-en-carrito");
                 numeroCarrito = JSON.parse(numeroCarrito);
+
                 let NuevoNumero = 0;
                 for(i=0;i<numeroCarrito.length;i++){
                     NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
                 }
-            
+                
+           
+               
 
             tituloPrincipal.innerText = '';
                 contenedorProductos.innerHTML = `
@@ -867,6 +869,7 @@ function cargarProductos(productosElegidos){
                                     let menos = document.querySelector('.btn-menos');
                                     let numerito = document.querySelector('.numerito')
             
+                                  
                                     
                                     
                                     
