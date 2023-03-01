@@ -796,38 +796,18 @@ function cargarProductos(productosElegidos){
         `
         contenedorProductos.append(div);
 
-
-
-
         /*Funcion para dar mas informacion de cada producto */
 
         const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
         const arrayBtnInfo = Array.apply(null,btnMasInfo);
 
-
-
-
-
             arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
                 let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
                 let productoExtraido = productos.find(producto => producto == btnClickeado);
-                let numeroCarrito = localStorage.getItem("productos-en-carrito");
-                numeroCarrito = JSON.parse(numeroCarrito);
-                const actualizarNumeritoAmpliado = ()=>{
-                    let NuevoNumero = 0;
-                    for(i=0;i<numeroCarrito.length;i++){
-                        NuevoNumero = NuevoNumero + numeroCarrito[i].cantidad
-                    }
-
-                    return NuevoNumero
+                
+                           
                     
-                }
-                
-                
-           
-               
-
-                    tituloPrincipal.innerText = '';
+                    tituloPrincipal.innerText = `${productoExtraido.titulo}`;
                         contenedorProductos.innerHTML = `
                                             <div class="contenedor-producto-ampliado flipInX">
                                             <div class="producto-ampliado">
@@ -850,43 +830,33 @@ function cargarProductos(productosElegidos){
                                             <hr>
                                             <h4>$${productoExtraido.precio}</h4>
                                             <hr>
-                                            <h6>En 3,6 y 12 Cuotas </h6>
-                                            
+                                            <h4><a href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a></h4>
+                                            <hr>
+
                                             <div class="cart-info-ampliado">
-                                            <h5 ><ion-icon name="cart-outline"></ion-icon></h5>
-                                            <span id="numerito-mobile" class="numerito class="boton-categoria"">${actualizarNumeritoAmpliado()}</span>
-                                            </div>
+                                           
                                             <div class="btn-add">
-                                                <button id="${productoExtraido.id}" class="btn-menos"><ion-icon name="remove-outline"></ion-icon></button>
-                                                <button id="${productoExtraido.id}" class="btn-mas"><ion-icon name="add-outline"></ion-icon></button>
+                                                <button id="${productoExtraido.id}" class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>      
                                             </div>
                                             </div>
                                             </div>
                                             
                                             </div> 
-                                            `
-
-                                    
-                                    
-            
-                                    let btnReturn = document.querySelector('.btn-return') 
-                                    btnReturn.addEventListener('click',function(){
-                                    location.reload()
-                                    setTimeout(function(){
-                                        cargarProductos(productos);
-                                    },1000);
-                                    
-                                    })
-                
-            
-                    
+                                            `               
+                                            let btnReturn = document.querySelector('.btn-return');
+                                            btnReturn.addEventListener('click',()=>{
+                                                location.reload()
+                                                setTimeout(function(){
+                                                    cargarProductos(productos);
+                                                },1000);
+                                            })           
                                     
             })
             
             
             );
-            
-            
+
+
             })
             actualizasBotonesAgregar()
             
@@ -1086,9 +1056,6 @@ btnAtermicos.addEventListener('click',function(){
     tituloPrincipal.innerText = 'Atermicos'
     
 })
-
-
-
 
 
 
