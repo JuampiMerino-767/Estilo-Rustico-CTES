@@ -2,7 +2,7 @@
 
 :root {
     --clr-main-f:rgba(82, 49, 0, 0.75);
-    --clr-main-d:#6b390b;
+    --clr-main-d:#171717;
     --clr-main-light: black;
     --clr-white: #ccc;
     --clr-gray: #e2e2e2;
@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
@@ -403,7 +403,7 @@ main {
 
 
 .producto-detalles {
-    background-color: var(--clr-main-d);
+    background-color: #2e2d2d;
     color: var(--clr-white);
     padding: .5rem;
     border-radius: 1rem;
@@ -456,6 +456,7 @@ main {
     font-size: 29px;
 }
 .contenedor-producto-ampliado{
+
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -463,6 +464,7 @@ main {
 }
 
 .producto-ampliado{
+    scroll-behavior: auto;
     width: 100%;
     display: flex;
     gap: 25px;
@@ -759,7 +761,7 @@ main {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        background-color: var(--clr-main-f);
+        background-color: #424242;
     }
 
     aside {
@@ -796,7 +798,7 @@ main {
     .contenedor-productos {
         grid-template-columns: 1fr ;
     }
-
+    
     .header-mobile {
         display: flex;
         padding: 1rem;
@@ -891,7 +893,7 @@ main {
    
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 17px;
     border: none;
     padding: 0;
     width: 100%;
@@ -927,6 +929,9 @@ main {
     .contenedor-productos {
         grid-template-columns: 1fr;
         
+    }
+    .aside-visible{
+        width: 60vw;
     }
 
 
