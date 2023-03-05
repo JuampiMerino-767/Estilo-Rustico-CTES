@@ -512,6 +512,7 @@ main {
     flex-direction: column;
     gap: 25px;
     font-size: 20px;
+    
 }
 .info-producto-ampliado h6{
     
@@ -802,8 +803,7 @@ main {
         border: none;
         padding: 0;
         width: 100%;
-        margin-left: 50px;
-        margin-top: 50px;
+        
         
        }
        
