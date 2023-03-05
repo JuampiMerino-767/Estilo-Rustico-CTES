@@ -83,7 +83,7 @@ function eliminarDelAlCarrito (e){
         duration: 2000,
         newWindow: true,
         gravity: "top", // `top` or `bottom`
-        position: "right", // `left`, `center` or `right`
+        position: "left", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
           background: "linear-gradient(to right, red, red)",
@@ -102,7 +102,7 @@ function eliminarDelAlCarrito (e){
     cargarProductosCarrito();
 
     localStorage.setItem('productos-en-carrito', JSON.stringify(productosEnCarrito));
-    console.log(productosEnCarrito);
+    
 };
 
 botonVaciar.addEventListener('click',vaciarCarrito);

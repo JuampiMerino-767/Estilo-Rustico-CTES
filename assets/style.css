@@ -174,7 +174,7 @@ nav {
   
   .menu li a {
     font-size: 18px;
-    color: #333;
+    color: #ffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: color 0.3s ease-in-out;
@@ -380,7 +380,6 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #462c07;
     color: #fff;
     text-decoration: none;
     background: #302204;
@@ -388,10 +387,7 @@ p {
 }
 
 
-.btn:hover {
-    background: none;
-    
-}
+
 
 .btn-home {
     display: flex;
@@ -1247,7 +1243,7 @@ p {
         top: 15px;
     }
     .maps{
-        width: 60%;
+        width: 40%;
     }
 }
     

@@ -749,7 +749,6 @@ let botonesAgregar = document.querySelectorAll('.producto-agregar')
 const numerito = document.querySelector('#numerito');
 const numeritoMobile = document.querySelector('#numerito-mobile');
 
-
 /*Funcion para cargar los productos en la seccion todos los productos*/
 
 function cargarProductos(productosElegidos){
@@ -790,8 +789,12 @@ function cargarProductos(productosElegidos){
             
                 <h3 class="producto-titulo ">${producto.categoria.nombre}</h3>
                 <p class="producto-precio">${producto.precio}$</p>
-         
-                <button id="${producto.id}" class="producto-agregar">Agregar al carrito</button>
+            <div class="btn-container">
+                
+                
+                <button id="${producto.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
+                <button id="${producto.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
+            </div>
             </div>
         `
         contenedorProductos.append(div);
@@ -799,9 +802,9 @@ function cargarProductos(productosElegidos){
         /*Funcion para dar mas informacion de cada producto */
 
         const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
-        const arrayBtnInfo = Array.apply(null,btnMasInfo);
+       
 
-            arrayBtnInfo.forEach(btn => btn.addEventListener('click',function(e){
+            btnMasInfo.forEach(btn => btn.addEventListener('click',function(e){
                 let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
                 let productoExtraido = productos.find(producto => producto == btnClickeado);
                 
@@ -905,10 +908,16 @@ botonesCategorias.forEach(boton =>{
 /*Funcion para obtener los botones agregar una vez halla sido cargada la pagina*/
 function actualizasBotonesAgregar (){
     botonesAgregar = document.querySelectorAll('.producto-agregar');
+    botonesRestar = document.querySelectorAll('.producto-restar');
     botonesAgregar.forEach(boton =>{
         boton.addEventListener('click', agregarAlCarrito);
+        
     });
 
+    botonesRestar.forEach(boton =>{
+        boton.addEventListener('click',restarAlCarrito)
+    })
+    
 };
 
 
@@ -946,7 +955,7 @@ function agregarAlCarrito (e){
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #4a4217, #2b1c09)",
+          background: "linear-gradient(to right, #171717, #2b1c09)",
           borderRadius: "2rem",
           textTransform: "uppercase",
           fontSize: ".75rem"
@@ -973,6 +982,48 @@ function agregarAlCarrito (e){
     /*Agregamos los elementos seleccionados al localstorage*/ 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 };
+/*Funcion para restar elementos al carrito*/
+function restarAlCarrito (e){
+
+    Toastify({
+        text: "Se elimino un producto",
+        duration: 2000,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #171717, #2b1c09)",
+          borderRadius: "2rem",
+          textTransform: "uppercase",
+          fontSize: ".75rem"
+        },
+        offset: {
+            x: '1rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
+        onClick: function(){} // Callback after click
+      }).showToast();
+
+    const idBoton = e.currentTarget.id;
+    const productoAgregado = productos.find(producto => producto.id === idBoton);
+
+    if (productosEnCarrito.some(producto => producto.id === idBoton)){
+       const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+       productosEnCarrito[index].cantidad--;
+       if(productosEnCarrito[index].cantidad <= 0){
+        productosEnCarrito.splice(index,  1);
+       }
+    }
+    actualizarNumerito()
+  
+
+     /*Agregamos los elementos seleccionados al localstorage*/ 
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+
+   
+};
+
+
 
 function actualizarNumerito (){
     let nuevoNumerito = productosEnCarrito.reduce((acc,producto) => acc + producto.cantidad, 0)
