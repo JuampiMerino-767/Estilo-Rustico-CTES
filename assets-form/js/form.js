@@ -7,10 +7,11 @@ const obtenerProductsLS = () =>{
   productosExtraidos.forEach(element => {
 
     arrayDeProductosExtraidos.push(element.categoria.nombre +'-x'+ element.cantidad);
-    totalCompra.push(element.precio);
+    totalCompra.push(element.precio * element.cantidad);
   });
-
+  console.log(arrayDeProductosExtraidos);
 }
+
 
 obtenerProductsLS()
 
