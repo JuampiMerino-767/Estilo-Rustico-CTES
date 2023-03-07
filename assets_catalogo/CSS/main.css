@@ -246,7 +246,7 @@ main {
 .contenedor-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     
 }
 
@@ -376,7 +376,7 @@ main {
     transform: perspective(400px);
     }
     } 
-  ×
+  
 
 
 
@@ -417,9 +417,19 @@ main {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    height: 130px;
+    height: 160px;
     padding: 25px;
     gap: 10px;
+}
+.producto-detalles a{
+    font-size: 20px;
+    background-color: #494949;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    
 }
 
 .producto-titulo {
@@ -760,6 +770,48 @@ main {
     transition: .3s ease;
     background-color: rgba(65, 35, 1, 0.7);
 }
+
+.calculo-metros{
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: rgba(163, 163, 163, 0.7);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.calcu{
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+}
+.calculo-metros span{
+    font-weight: 800;
+}
+.calculo-metros input{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.input-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+.input-container p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 1000px) {

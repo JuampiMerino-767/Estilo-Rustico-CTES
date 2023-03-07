@@ -23,7 +23,8 @@ const productos = [
             nombre: "Mayken",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'11.5'
     },
     {
         id: "item 2",
@@ -44,7 +45,8 @@ const productos = [
             nombre: "Quebracho y Corteza",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'15'
     },
     {
         id: "item 3",
@@ -65,7 +67,8 @@ const productos = [
             nombre: "Murete San Juan (MSJ)",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'9'
     },
     {
         id: "item 4",
@@ -85,7 +88,8 @@ const productos = [
             nombre: "Simil Piedra (SP)",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'36'
     },
     {
         id: "item 5",
@@ -105,7 +109,8 @@ const productos = [
             nombre: "Roca",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'12,5'
     },
     {
         id: "item 6",
@@ -125,7 +130,8 @@ const productos = [
             nombre: "Murete San Luis (MSL)",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'40'
     },
     {
         id: "item 7",
@@ -146,7 +152,8 @@ const productos = [
             nombre: "Traverlite",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'36'
     },
     {
         id: "item 8",
@@ -166,7 +173,8 @@ const productos = [
             nombre: "Adoquin",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'100'
     },
     {
         id: "item 9",
@@ -186,7 +194,8 @@ const productos = [
             nombre: "Piedra Umha",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'0'
     },
     {
         id: "item 10",
@@ -206,7 +215,8 @@ const productos = [
             nombre: "Prisma",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'36'
     }
     ,
     {
@@ -227,7 +237,8 @@ const productos = [
             nombre: "Quarzita",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'14'
     }
     ,
     {
@@ -248,7 +259,8 @@ const productos = [
             nombre: "Patagonia",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'17'
     }
     ,
     {
@@ -269,7 +281,8 @@ const productos = [
             nombre: "Multikubik",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'0'
     }
     ,
     {
@@ -290,7 +303,8 @@ const productos = [
             nombre: "GeoKubik",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'0'
     }
     ,
     {
@@ -311,7 +325,8 @@ const productos = [
             nombre: "Piedra Irregular",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'0'
     }
     ,
     {
@@ -333,7 +348,8 @@ const productos = [
             nombre: "Quebracho cruzado",
             id: "Revestimientos"
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'6,25'
     }
     ,
     {
@@ -354,7 +370,8 @@ const productos = [
             nombre: "Símil quebracho y corteza",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'15'
     },
     {
         id: "item 18",
@@ -374,7 +391,8 @@ const productos = [
             nombre: "Quebracho 60",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8,33'
     },
     {
         id: "item 19",
@@ -394,7 +412,8 @@ const productos = [
             nombre: "Adoquín madera con Quebracho 60",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'6,22'
     },
     {
         id: "item 20",
@@ -414,7 +433,8 @@ const productos = [
             nombre: "Deck Símil Madera (DSM)",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'4'
     },
     {
         id: "item 21",
@@ -434,7 +454,8 @@ const productos = [
             nombre: "Pinotea",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'7,41'
     },
     {
         id: "item 22",
@@ -454,7 +475,8 @@ const productos = [
             nombre: "Lapacho",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'7,41'
     },
     {
         id: "item 23",
@@ -474,7 +496,8 @@ const productos = [
             nombre: "Deck antideslizante",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'4'
     },
     {
         id: "item 24",
@@ -494,7 +517,8 @@ const productos = [
             nombre: "Laja",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'4'
     },
     {
         id: "item 25",
@@ -514,7 +538,8 @@ const productos = [
             nombre: "Adoquín Colonial",
             id: "Revestimientos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'4'
     },
     {
         id: "item 26",
@@ -534,7 +559,8 @@ const productos = [
             nombre: "Durmientes simil madera",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8'
     },
     {
         id: "item 27",
@@ -554,7 +580,8 @@ const productos = [
             nombre: "Durmientes simil madera",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'6,7'
     },
     {
         id: "item 28",
@@ -574,7 +601,8 @@ const productos = [
             nombre: "Durmientes simil madera",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'3,4'
     },
 
     {
@@ -595,7 +623,8 @@ const productos = [
             nombre: "Adoquin 10",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'100'
     },
     {
         id: "item 30",
@@ -615,7 +644,8 @@ const productos = [
             nombre: "Bloque césped Rombo",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8,2'
     },
     {
         id: "item 31",
@@ -635,7 +665,8 @@ const productos = [
             nombre: "Bloque césped Redondo",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8,2'
     },
     {
         id: "item 32",
@@ -655,7 +686,8 @@ const productos = [
             nombre: "Bloque césped Recto",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8,2'
     },
     {
         id: "item 33",
@@ -675,7 +707,8 @@ const productos = [
             nombre: "Adoquín intertrabado",
             id: "Jardin",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'50'
     },
     {
         id: "item 34",
@@ -695,7 +728,8 @@ const productos = [
             nombre: "Durmiente 50x25",
             id: "Atermicos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'8'
     },
     
     {
@@ -716,7 +750,8 @@ const productos = [
             nombre: "Durmiente 50x30",
             id: "Atermicos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'6,7'
     },
     {
         id: "item 36",
@@ -736,7 +771,8 @@ const productos = [
             nombre: "Durmiente 1 metro",
             id: "Atermicos",
         },
-        precio: 1000
+        precio: 1000,
+        unidades:'3,4'
     },
 
             
@@ -782,10 +818,11 @@ function cargarProductos(productosElegidos){
                 <br>
                 <p class="producto-precio">*Peso: ${producto.info.Peso}</p>
                 <hr>
-                <button id="${producto.id}" class="producto-agregar-info">Mas informacion</button>
+
             </figcaption>
         </figure>
             <div class="producto-detalles">
+            <a href="product-render.html" class="mas-info" id="${producto.id}">Mas informacion</a>
             
                 <h3 class="producto-titulo ">${producto.categoria.nombre}</h3>
                 <p class="producto-precio">${producto.precio}$</p>
@@ -799,65 +836,9 @@ function cargarProductos(productosElegidos){
         `
         contenedorProductos.append(div);
 
-        /*Funcion para dar mas informacion de cada producto */
-
-        const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
-       
-
-            btnMasInfo.forEach(btn => btn.addEventListener('click',function(e){
-                let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
-                let productoExtraido = productos.find(producto => producto == btnClickeado);
-                
-                           
-                    
-                    tituloPrincipal.innerText = `${productoExtraido.titulo}`;
-                        contenedorProductos.innerHTML = `
-                                            <div class="contenedor-producto-ampliado flipInX">
-                                            <div class="producto-ampliado">
-            
-                                                <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
-
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="info-producto-ampliado slideInRight">
-                                            <h1>${productoExtraido.categoria.nombre}</h1>
-                                            <h2>${productoExtraido.info.tipo}</h2>
-                                            <p>*Material: ${productoExtraido.info.Material}</p>
-                                            <hr>
-                                            <p>*Peso: ${productoExtraido.info.Peso}</p>
-                                            <hr>
-                                            <p>*Medida: ${productoExtraido.info.Medida}</p>
-                                            <hr>
-                                            <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
-                                            <hr>
-                                            <h4>$${productoExtraido.precio}</h4>
-                                            <hr>
-                                            <h4><a href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a></h4>
-                                            <hr>
-
-                                            <div class="cart-info-ampliado">
-                                           
-                                            <div class="btn-add">
-                                                <button id="${productoExtraido.id}" class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>      
-                                            </div>
-                                            </div>
-                                            </div>
-                                            
-                                            </div> 
-                                            `               
-                                            let btnReturn = document.querySelector('.btn-return');
-                                            btnReturn.addEventListener('click',()=>{
-                                                location.reload()
-                                                setTimeout(function(){
-                                                    cargarProductos(productos);
-                                                },1000);
-                                            })           
-                                    
-            })
             
             
-            );
+            
 
 
             })
@@ -1111,3 +1092,78 @@ btnAtermicos.addEventListener('click',function(){
 
 
 
+const MasInfo = document.querySelectorAll('.mas-info');
+       
+ MasInfo.forEach(btn => btn.addEventListener('click',function(e){
+        let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
+        let productoExtraido = productos.find(producto => producto == btnClickeado);
+        localStorage.setItem('info-product',JSON.stringify(productoExtraido))
+}))
+
+
+/*
+
+
+  
+        
+        const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
+       
+
+            btnMasInfo.forEach(btn => btn.addEventListener('click',function(e){
+                let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
+                let productoExtraido = productos.find(producto => producto == btnClickeado);
+                
+                           
+                    
+                    tituloPrincipal.innerText = `${productoExtraido.titulo}`;
+                        contenedorProductos.innerHTML = `
+                                            <div class="contenedor-producto-ampliado flipInX">
+                                            <div class="producto-ampliado">
+            
+                                                <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
+
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="info-producto-ampliado slideInRight">
+                                            <h1>${productoExtraido.categoria.nombre}</h1>
+                                            <h2>${productoExtraido.info.tipo}</h2>
+                                            <p>*Material: ${productoExtraido.info.Material}</p>
+                                            <hr>
+                                            <p>*Peso: ${productoExtraido.info.Peso}</p>
+                                            <hr>
+                                            <p>*Medida: ${productoExtraido.info.Medida}</p>
+                                            <hr>
+                                            <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
+                                            <hr>
+                                            <h4>$${productoExtraido.precio}</h4>
+                                            <hr>
+                                            <h4><a href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a></h4>
+                                            <hr>
+                                           
+                                            <div class="cart-info-ampliado">
+                                           
+                                            <div class="btn-add">
+                                                <button id="${productoExtraido.id}" class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>      
+                                            </div>
+                                            </div>
+                                            </div>
+                                            
+                                            </div> 
+                                            `         
+                                                console.log(productoExtraido);
+                                            let btnReturn = document.querySelector('.btn-return');
+                                            btnReturn.addEventListener('click',()=>{
+                                                location.reload()
+                                                setTimeout(function(){
+                                                    cargarProductos(productos);
+                                                },1000);
+
+                                                
+                                            })           
+                                    
+            })
+
+
+
+*/

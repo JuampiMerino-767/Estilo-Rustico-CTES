@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets-product-render/style.css">
+</head>
+<body>
+   
+  <nav>
+    <div class="logo">
+      <a href="#">Estilo Rustico</a>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#title-nos">Sobre Nosotros</a></li>
+      <li><a href="#contact">Contacto</a></li>
+      <li><a href="./catalogo.html">Catalogo</a></li>
+      <li><a href="./carrito.html"><ion-icon name="cart-outline"></ion-icon></a></li>
+      
+    </ul>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+    <section class="products">
+      <!--
+        <h2 class="products-title">Nombre del producto</h2>
+        <div class="products-container">
+          <div class="product-card">
+            <img src="./assets_catalogo/IMG/item 1.jpg" alt="Imagen del producto 1">
+            <h3 class="product-card-title">Tipo</h3>
+            <p class="product-card-description">Descripción del producto.</p>
+            <p class="product-card-price">$99.99</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+
+          </div>
+          -->
+
+
+          
+          
+
+      </section>
+      <div class="calcular">
+        <div class="title">
+          <ion-icon class="calculadora" name="calculator-outline"></ion-icon> 
+          <h2>¿Cuantas cajas necesito?</h2>
+        </div>
+        <div class="text-and-input">
+          <p>Ingresá los metros cuadrados que necesitas cubrir</p>
+          <label for="input"></label>
+          <input min="0" id="input" type="number" placeholder="Ej: 10">
+          <button onclick="calcular()" class="btn-calcular">Calcular</button>
+          
+          
+        </div>
+        
+        
+      </div>
+      <div class="btn-return">
+        <button class="back-to-catalog">Volver al catálogo</button>
+      </div>
+      
+      <section class="payment-methods">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Métodos de Pago</h2>
+              <p>Aceptamos los siguientes métodos de pago:</p>
+              <ul class="list-inline">
+                <li><img src="https://via.placeholder.com/60x40?text=Visa" alt="Visa"></li>
+                <li><img src="https://via.placeholder.com/60x40?text=Mastercard" alt="Mastercard"></li>
+                <li><img src="https://via.placeholder.com/60x40?text=American+Express" alt="American Express"></li>
+                <li><img src="https://via.placeholder.com/60x40?text=PayPal" alt="PayPal"></li>
+                <li><img src="https://via.placeholder.com/60x40?text=Apple+Pay" alt="Apple Pay"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+ 
+ 
+      <footer>
+        <div class="container">
+          <div class="logo">
+            <img src="./assets/img/Logo.jpg" alt="Logo de la empresa">
+          </div>
+          <div class="address">
+            <p></p>
+            <p>Teléfono:+54-9-3794-237037 </p>
+            <p>Correo electrónico: gerencia@merakiarg.com </p>
+          </div>
+          <div class="contact-form">
+            <h3>Contáctanos</h3>
+            <form>
+              <input type="text" name="nombre" placeholder="Nombre">
+              <input type="email" name="correo" placeholder="Correo electrónico">
+              <textarea name="mensaje" placeholder="Mensaje"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+      
+      
+      
+     <script src="./assets-product-render/app.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
