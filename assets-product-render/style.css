@@ -67,7 +67,7 @@ nav {
 
 
 .products {
-    background-color: rgba(105, 105, 105, 0.7);
+    background-color: rgba(105, 105, 105, 1);
     padding: 50px 0;
     
   }
@@ -97,7 +97,7 @@ nav {
   .product-card {
  
     width: 94%;
-    height: 100vh;
+    height: 110vh;
     background-color: #ccc;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -105,7 +105,17 @@ nav {
     transition: transform 0.3s ease-in-out;
 
   }
-  
+  .product-card h4{
+    text-decoration: none;
+  }
+ .ir-catalogo {
+  padding: 0 20px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 20px;
+ }
   .product-card:hover {
     transform: translateY(-15px);
   }
@@ -124,7 +134,8 @@ nav {
   }
   
   .product-card-description {
-    margin: 0 20px 20px;
+    margin: 0px 20px 20px;
+    
   }
   
   .product-card-price {
@@ -212,7 +223,9 @@ nav {
     border: none;
     margin: auto;
     margin-top: 10px;
-    height: 30px;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
     border-radius: 4px;
   }
   .text-and-input button{
@@ -452,6 +465,7 @@ nav {
     padding: 10px;
     border: none;
     border-radius: 5px;
+      
   }
   
   .contact-form textarea {

@@ -110,7 +110,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'12,5'
+        unidades:'12.5'
     },
     {
         id: "item 6",
@@ -349,7 +349,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'6,25',
+        unidades:'6.25',
     }
     ,
     {
@@ -392,7 +392,7 @@ const productos = [
             id: "Revestimientos",
         },
         precio: 1000,
-        unidades:'8,33'
+        unidades:'8.33'
     },
     {
         id: "item 19",
@@ -413,7 +413,7 @@ const productos = [
             id: "Revestimientos",
         },
         precio: 1000,
-        unidades:'6,22'
+        unidades:'6.22'
     },
     {
         id: "item 20",
@@ -455,7 +455,7 @@ const productos = [
             id: "Revestimientos",
         },
         precio: 1000,
-        unidades:'7,41'
+        unidades:'7.41'
     },
     {
         id: "item 22",
@@ -476,7 +476,7 @@ const productos = [
             id: "Revestimientos",
         },
         precio: 1000,
-        unidades:'7,41'
+        unidades:'7.41'
     },
     {
         id: "item 23",
@@ -581,7 +581,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'6,7'
+        unidades:'6.7'
     },
     {
         id: "item 28",
@@ -602,7 +602,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'3,4'
+        unidades:'3.4'
     },
 
     {
@@ -645,7 +645,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'8,2'
+        unidades:'8.2'
     },
     {
         id: "item 31",
@@ -666,7 +666,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'8,2'
+        unidades:'8.2'
     },
     {
         id: "item 32",
@@ -687,7 +687,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'8,2'
+        unidades:'8.2'
     },
     {
         id: "item 33",
@@ -751,7 +751,7 @@ const productos = [
             id: "Atermicos",
         },
         precio: 1000,
-        unidades:'6,7'
+        unidades:'6.7'
     },
     {
         id: "item 36",
@@ -772,7 +772,7 @@ const productos = [
             id: "Atermicos",
         },
         precio: 1000,
-        unidades:'3,4'
+        unidades:'3.4'
     },
 
             
@@ -1012,7 +1012,7 @@ function actualizarNumerito (){
     let nuevoNumerito = productosEnCarrito.reduce((acc,producto) => acc + producto.cantidad, 0)
     numerito.innerText = nuevoNumerito;
     numeritoMobile.innerText = nuevoNumerito;
-    console.log(productosEnCarrito);
+   
 };
 
 

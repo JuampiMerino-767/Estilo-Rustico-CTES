@@ -45,7 +45,7 @@ const renderCard = (parseado) =>{
   container.innerHTML = `
     <h2 class="products-title">${parseado.categoria.nombre}</h2>
     <div class="products-container">
-
+    
       <div class="product-card">
         <img src="${parseado.imagen}" alt="Imagen del producto 1">
         <h3 class="product-card-title">${parseado.info.tipo}</h3>
@@ -60,24 +60,24 @@ const renderCard = (parseado) =>{
         <hr>
         <p class="product-card-description">Venta: ${parseado.info.Precio}</p>
         <hr>
+        <a class="ir-catalogo" href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a>
+        <hr>
         <p class="product-card-price">$${parseado.precio}</p>
         <div class="btn-container">
                 
                 
-        <button id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
+        <button type="button" id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
         <div class="carrito-mobile-container">
              <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
           </div> 
-        <button  id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
+        <button type="button" id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
       </div>
         
     </div>
   
   
   `
-  let btnAgregar = document.querySelector('.producto-agregar');
  
-
 
   localStorage.setItem('info-product',[])
 }
@@ -124,6 +124,4 @@ const cargarNumerito= ()=>{
 
 }
 cargarNumerito()
-
-
 
