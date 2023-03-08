@@ -304,10 +304,10 @@ nav {
   
   
   .payment-methods {
-    
+ 
     text-align: center;
     background-color: #171717;
-    padding: 50px 0;
+    padding: 50px ;
     color: #ccc;
   }
   
@@ -389,6 +389,7 @@ nav {
     flex-basis: 100%;
     max-width: 400px;
     margin-top: 20px;
+    color: #ccc;
   }
   
   .contact-form h3 {
@@ -416,6 +417,7 @@ nav {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  
   }
   
   .contact-form button[type="submit"]:hover {

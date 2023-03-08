@@ -58,6 +58,8 @@ const renderCard = (parseado) =>{
         <hr>
         <p class="product-card-description">Cantidad: ${parseado.info.Cantidad}</p>
         <hr>
+        <p class="product-card-description">Venta: ${parseado.info.Precio}</p>
+        <hr>
         <p class="product-card-price">$${parseado.precio}</p>
         <button class="add-to-cart">Agregar al carrito</button>
         
@@ -81,11 +83,10 @@ const calcular = ()=>{
 
 
   let resultado = (cantidad * input) ;
-  console.log(resultado);
-  
+  let cajas = input % cantidad
   containerCalculadora.innerHTML += `
-    <p>Necesitas: ${resultado} unidades para cubrir ${input} m2</p>
-    <p>Necesitas: ${Math.ceil(input % cantidad)} cajas</p>
+    <p>Necesitas: ${resultado.toFixed(2)} unidades para cubrir ${input} m2</p>
+    <p>Necesitas: ${Math.ceil(cajas)} cajas</p>
     <p>Total estimado:$${parseado.precio * Math.ceil(input)}</p>
   `
   cantidad = 0;

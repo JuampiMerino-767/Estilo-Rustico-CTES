@@ -349,7 +349,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'6,25'
+        unidades:'6,25',
     }
     ,
     {
@@ -870,7 +870,8 @@ botonesCategorias.forEach(boton =>{
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
-            
+            obtenerMasInfo()
+
             
 
             
@@ -878,7 +879,8 @@ botonesCategorias.forEach(boton =>{
          }else{
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
-           
+            obtenerMasInfo()
+
             
        }
     
@@ -1049,6 +1051,9 @@ const btnAtermicos = document.querySelector('.btn-atermicos');
 btnTodos.addEventListener('click',function(){
     cargarProductos(productos)
     tituloPrincipal.innerText = 'Todos los productos'
+    obtenerMasInfo()
+
+    
     
 })
 
@@ -1057,7 +1062,8 @@ btnOffert.addEventListener('click',function(){
    
     cargarProductos(productosOffert)
     tituloPrincipal.innerText = 'Ofertas exclusivas'
-    
+    obtenerMasInfo()
+
     
 })
 
@@ -1068,6 +1074,8 @@ btnRecomend.addEventListener('click',function(){
     cargarProductos(productosRecomendados)
 
     tituloPrincipal.innerText = 'Productos Recomendados'
+    obtenerMasInfo()
+
     
 })
 
@@ -1077,6 +1085,8 @@ btnRevestimientos.addEventListener('click',function(){
     cargarProductos(productosRevestimientos);
 
     tituloPrincipal.innerText = 'Revestimientos de piso y pared'
+    obtenerMasInfo()
+
     
 })
 
@@ -1086,19 +1096,23 @@ btnAtermicos.addEventListener('click',function(){
     cargarProductos(productosAtermicos)
 
     tituloPrincipal.innerText = 'Atermicos'
+    obtenerMasInfo()
+
     
 })
 
 
 
-
-const MasInfo = document.querySelectorAll('.mas-info');
+const obtenerMasInfo = ()=>{
+    const MasInfo = document.querySelectorAll('.mas-info');
        
- MasInfo.forEach(btn => btn.addEventListener('click',function(e){
-        let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
-        let productoExtraido = productos.find(producto => producto == btnClickeado);
-        localStorage.setItem('info-product',JSON.stringify(productoExtraido))
-}))
+    MasInfo.forEach(btn => btn.addEventListener('click',function(e){
+           let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
+           let productoExtraido = productos.find(producto => producto == btnClickeado);
+           localStorage.setItem('info-product',JSON.stringify(productoExtraido))
+   }))
+}
+obtenerMasInfo()
 
 
 /*
