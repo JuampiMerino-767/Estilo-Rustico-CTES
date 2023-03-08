@@ -340,6 +340,44 @@ nav {
     border-radius: 5px;
   }
   
+  .btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+  .producto-restar{
+    width: 90px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #27ae60;
+    cursor: pointer;
+  }
+  .producto-agregar{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    border: 2px solid gray;
+
+    cursor: pointer;
+  }
+  .carrito-mobile-container{
+    
+  }
+  .carrito-mobile-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    background-color: #0c0c0c;
+    border-radius: 5px;
+    
+  }
+  .carrito-mobile-container span{
+    border: 2px solid white;
+    border-radius: 5px;
+  }
   @media screen and (max-width: 768px) {
     .payment-methods p {
       font-size: 16px;

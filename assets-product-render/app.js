@@ -61,7 +61,15 @@ const renderCard = (parseado) =>{
         <p class="product-card-description">Venta: ${parseado.info.Precio}</p>
         <hr>
         <p class="product-card-price">$${parseado.precio}</p>
-        <button class="add-to-cart">Agregar al carrito</button>
+        <div class="btn-container">
+                
+                
+        <button onclick="Saludar()" id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
+        <div class="carrito-mobile-container">
+             <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
+          </div> 
+        <button onclick="agregar()" id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
+      </div>
         
     </div>
   
@@ -93,3 +101,12 @@ const calcular = ()=>{
   resultado = 0;
   input = 0;
 }
+
+const agregar= ()=>{
+let numerito = document.getElementById('numerito-mobile');
+numerito.innerText += numerito + 1;
+
+}
+
+
+
