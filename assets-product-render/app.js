@@ -64,17 +64,21 @@ const renderCard = (parseado) =>{
         <div class="btn-container">
                 
                 
-        <button onclick="Saludar()" id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
+        <button id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
         <div class="carrito-mobile-container">
              <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
           </div> 
-        <button onclick="agregar()" id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
+        <button  id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
       </div>
         
     </div>
   
   
   `
+  let btnAgregar = document.querySelector('.producto-agregar');
+ 
+
+
   localStorage.setItem('info-product',[])
 }
 
@@ -91,9 +95,9 @@ const calcular = ()=>{
 
 
   let resultado = (cantidad * input) ;
-  let cajas = input % cantidad
+  let cajas = Math.ceil(input);
   containerCalculadora.innerHTML += `
-    <p>Necesitas: ${resultado.toFixed(2)} unidades para cubrir ${input} m2</p>
+    <p>Necesitas: ${resultado.toFixed(1)} unidades para cubrir ${input} m2</p>
     <p>Necesitas: ${Math.ceil(cajas)} cajas</p>
     <p>Total estimado:$${parseado.precio * Math.ceil(input)}</p>
   `
@@ -102,11 +106,24 @@ const calcular = ()=>{
   input = 0;
 }
 
-const agregar= ()=>{
-let numerito = document.getElementById('numerito-mobile');
-numerito.innerText += numerito + 1;
+const cargarNumerito= ()=>{
+    let numerito = document.querySelector('#numerito-mobile');
+    let LS = localStorage.getItem('productos-en-carrito');
+    let parse = JSON.parse(LS);
+
+   
+
+    parse.forEach(element => {
+    if(element.id === parseado.id){
+      numerito.innerText = element.cantidad
+    }
+
+    
+});
+
 
 }
+cargarNumerito()
 
 
 
