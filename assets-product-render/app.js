@@ -66,11 +66,11 @@ const renderCard = (parseado) =>{
         <div class="btn-container">
                 
                 
-        <button type="button" id="${parseado.id}" class="producto-restar"><i class="fa-solid fa-minus"></i></button>
+        
         <div class="carrito-mobile-container">
              <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
           </div> 
-        <button type="button" id="${parseado.id}" class="producto-agregar"><i class="fa-solid fa-plus"></i></button>
+        
       </div>
         
     </div>
