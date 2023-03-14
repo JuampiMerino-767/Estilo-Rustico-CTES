@@ -345,7 +345,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Quebracho cruzado",
+            nombre: "Simil quebracho y corteza",
             id: "Revestimientos"
         },
         precio: 1000,
@@ -367,7 +367,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Símil quebracho y corteza",
+            nombre: "Quebracho cruzado",
             id: "Revestimientos",
         },
         precio: 1000,
@@ -430,7 +430,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Deck Símil Madera (DSM)",
+            nombre: "Deck Hormigon",
             id: "Revestimientos",
         },
         precio: 1000,
@@ -551,12 +551,12 @@ const productos = [
             Precio:' por m2',
             Medida: '50x25x6 cm || Espesor 60mm +/- 1,5mm',
             Peso: '16kg aproximadamente por unidad', 
-            Cantidad: '8 unidades por m2',
+            Cantidad: '8 unidades por m2 || 2 unidades por venta',
             Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmientes simil madera",
+            nombre: "Durmiente lapacho o pinotea",
             id: "Jardin",
         },
         precio: 1000,
@@ -694,10 +694,10 @@ const productos = [
         titulo: "Jardin",
         imagen: "./assets_catalogo/IMG/item 33.jpg",
         info:{
-            tipo:'Durmiente 1 metro',
-            Material: 'Hormigón pigmentado',
+            tipo:'Durmiente 50x25',
+            Material: 'Hormigon, simil madera',
             Precio:' por m2',
-            Medida: '20x10x8 cm || 80mm +/- 1,5mm',
+            Medida: '50x30x8 cm || 80mm +/- 1,5mm',
             Peso: '1.3kg aproximadamente por unidad', 
             Cantidad: '50 unidades por m2',
             Pallet: 'por pallet',
@@ -715,7 +715,7 @@ const productos = [
         titulo: "Atermico",
         imagen: "./assets_catalogo/IMG/item 34.jpg",
         info:{
-            tipo:'Durmientes simil madera',
+            tipo:'Durmientes hormigon simil madera',
             Material: 'Bicapa atérmico',
             Precio:' por m2',
             Medida: '50x25x6 cm || 60mm +/- 1,5mm',
@@ -725,7 +725,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmiente 50x25",
+            nombre: "Durmiente 50x30",
             id: "Atermicos",
         },
         precio: 1000,
