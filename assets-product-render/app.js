@@ -98,7 +98,7 @@ const calcular = ()=>{
   let cajas = Math.ceil(input);
   containerCalculadora.innerHTML += `
     <p>Necesitas: ${resultado.toFixed(1)} unidades para cubrir ${input} m²</p>
-    <p>Necesitas: ${Math.ceil(cajas)} cajas</p>
+
     <p>Total estimado:$${parseado.precio * Math.ceil(input)}</p>
   `
   cantidad = 0;
