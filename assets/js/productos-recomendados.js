@@ -363,7 +363,7 @@ const mostrasProductos = () =>{
         <div class="card">  
             <div class="circle"></div>
             <div class="content">
-                <h2>|${producto.categoria.nombre}|</h2>
+                <h3>|${producto.categoria.nombre}|</h3>
                 <p>${producto.info.tipo}</p>
                 <a class="btn-buy" href="./catalogo.html">Comprar ahora</a>
             </div>

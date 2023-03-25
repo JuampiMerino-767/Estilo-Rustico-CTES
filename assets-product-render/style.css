@@ -89,7 +89,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    
+
     margin: 0 auto;
     width: 100%; 
   }
@@ -97,7 +97,7 @@ nav {
   .product-card {
  
     width: 94%;
-    height: 110vh;
+
     background-color: #ccc;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -109,7 +109,6 @@ nav {
     text-decoration: none;
   }
  .ir-catalogo {
-  margin-top: 10px;
   padding: 0 20px ;
   text-transform: uppercase;
   font-weight: 700;
@@ -597,8 +596,8 @@ nav {
  }
 
  .product-card{
-  height: 115vh;
-  width: 70%;
+  height: 125vh;
+  width: 50%;
   text-align: center;
   font-size: 19px;
  }
