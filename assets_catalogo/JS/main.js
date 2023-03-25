@@ -790,7 +790,7 @@ const numeritoMobile = document.querySelector('#numerito-mobile');
 function cargarProductos(productosElegidos){
 
 
-    contenedorProductos.innerHTML = "";
+    contenedorProductos.innerHTML = '';
 
     productosElegidos.forEach(producto =>{
         
@@ -1116,69 +1116,3 @@ const obtenerMasInfo = ()=>{
 obtenerMasInfo()
 
 
-/*
-
-
-  
-        
-        const btnMasInfo = document.querySelectorAll('.producto-agregar-info');
-       
-
-            btnMasInfo.forEach(btn => btn.addEventListener('click',function(e){
-                let btnClickeado = productos.find(element => element.id == e.currentTarget.id)
-                let productoExtraido = productos.find(producto => producto == btnClickeado);
-                
-                           
-                    
-                    tituloPrincipal.innerText = `${productoExtraido.titulo}`;
-                        contenedorProductos.innerHTML = `
-                                            <div class="contenedor-producto-ampliado flipInX">
-                                            <div class="producto-ampliado">
-            
-                                                <img class="imagen-product-ampli" src="${productoExtraido.imagen}" alt="">
-
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="info-producto-ampliado slideInRight">
-                                            <h1>${productoExtraido.categoria.nombre}</h1>
-                                            <h2>${productoExtraido.info.tipo}</h2>
-                                            <p>*Material: ${productoExtraido.info.Material}</p>
-                                            <hr>
-                                            <p>*Peso: ${productoExtraido.info.Peso}</p>
-                                            <hr>
-                                            <p>*Medida: ${productoExtraido.info.Medida}</p>
-                                            <hr>
-                                            <p>*Cantidad: ${productoExtraido.info.Cantidad}</p>
-                                            <hr>
-                                            <h4>$${productoExtraido.precio}</h4>
-                                            <hr>
-                                            <h4><a href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a></h4>
-                                            <hr>
-                                           
-                                            <div class="cart-info-ampliado">
-                                           
-                                            <div class="btn-add">
-                                                <button id="${productoExtraido.id}" class="btn-return"><ion-icon name="return-down-back-outline"></ion-icon></button>      
-                                            </div>
-                                            </div>
-                                            </div>
-                                            
-                                            </div> 
-                                            `         
-                                                console.log(productoExtraido);
-                                            let btnReturn = document.querySelector('.btn-return');
-                                            btnReturn.addEventListener('click',()=>{
-                                                location.reload()
-                                                setTimeout(function(){
-                                                    cargarProductos(productos);
-                                                },1000);
-
-                                                
-                                            })           
-                                    
-            })
-
-
-
-*/

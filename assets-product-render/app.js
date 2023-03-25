@@ -79,7 +79,6 @@ const renderCard = (parseado) =>{
   `
  
 
-  localStorage.setItem('info-product',[])
 }
 
 renderCard(parseado)
@@ -102,14 +101,12 @@ const retry = ()=>{
 const calcular = ()=>{
   let input  = document.getElementById('input').value;
   let cantidad = Number(parseado.unidades)
-
-
+ 
   let resultado = (cantidad * input) ;
-  let cajas = Math.ceil(input);
   containerCalculadora.innerHTML += `
-    <p>Necesitas: ${resultado.toFixed(1)} unidades para cubrir ${input} m²</p>
+    <p><span>Necesitas:</span> ${resultado.toFixed(1)} unidades para cubrir ${input} m²</p>
 
-    <p>Total estimado:$${parseado.precio * Math.ceil(input)}</p>
+    <p><span>Total estimado:</span>$${parseado.precio * Math.ceil(input)}</p>
   `
   cantidad = 0;
   resultado = 0;
@@ -134,4 +131,5 @@ const cargarNumerito= ()=>{
 
 }
 cargarNumerito()
+
 

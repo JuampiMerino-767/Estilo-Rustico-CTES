@@ -109,12 +109,12 @@ nav {
     text-decoration: none;
   }
  .ir-catalogo {
-  padding: 0 20px;
-
+  margin-top: 10px;
+  padding: 0 20px ;
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
  }
   .product-card:hover {
     transform: translateY(-15px);
@@ -139,9 +139,10 @@ nav {
   }
   
   .product-card-price {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
-    margin: 0 20px 20px;
+    margin: 0 20px 20px ;
+    margin-top: 20px;
   }
   
   .add-to-cart {
@@ -217,6 +218,13 @@ nav {
     gap: 5px;
     text-align: center;
     color: #ccc;
+  }
+  .text-and-input p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .text-and-input p span{
+    color:  rgb(100, 29, 182);
   }
   .text-and-input input{
     width: 40%;
