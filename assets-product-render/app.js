@@ -87,7 +87,17 @@ renderCard(parseado)
 
 const containerCalculadora = document.querySelector('.text-and-input');
 
-
+const retry = ()=>{
+  const btnRetry = document.querySelector(".btn-retry")
+  containerCalculadora.innerHTML = `
+  <p>Ingresá los metros cuadrados que necesitas cubrir</p>
+  <label for="input"></label>
+  <input min="0" id="input" type="number" placeholder="Ej: 10">
+  <button onclick="calcular()" class="btn-calcular">Calcular</button>
+  <button onclick="retry()" class="btn-calcular btn-retry"><i class="fa-solid fa-arrows-rotate"></i></button>
+  
+  `
+}
 
 const calcular = ()=>{
   let input  = document.getElementById('input').value;
