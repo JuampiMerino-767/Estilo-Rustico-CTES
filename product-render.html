@@ -46,7 +46,7 @@
       <div class="calcular">
         <div class="title">
           <ion-icon class="calculadora" name="calculator-outline"></ion-icon> 
-          <h2>¿Cuantas cajas necesito?</h2>
+          <h2>¿Cuantas unidades de este producto necesito?</h2>
         </div>
         <div class="text-and-input">
           <p>Ingresá los metros cuadrados que necesitas cubrir</p>
@@ -54,10 +54,19 @@
           <input min="0" id="input" type="number" placeholder="Ej: 10">
           <button onclick="calcular()" class="btn-calcular">Calcular</button>
           <button onclick="retry()" class="btn-calcular btn-retry"><i class="fa-solid fa-arrows-rotate"></i></button>
-          
-  
+
         </div>
-        
+        <div class="calculator">
+          <h2>Calculadora de Metros</h2>
+          <label for="width">Ancho:</label>
+          <input type="number" id="width" placeholder="Ancho en metros">
+          <label for="height">Alto:</label>
+          <input type="number" id="height" placeholder="Alto en metros">
+          <button onclick="calculateSquareMeters()">Calcular Metros Cuadrados</button>
+          <br>
+         
+          <div id="result"></div>
+        </div>
         
       </div>
       <div class="btn-return">
