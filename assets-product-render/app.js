@@ -132,4 +132,11 @@ const cargarNumerito= ()=>{
 }
 cargarNumerito()
 
+function calculateSquareMeters() {
+  const width = document.getElementById("width").value;
+  const height = document.getElementById("height").value;
+  const result = width * height;
+  document.getElementById("result").innerHTML = `Metros Cuadrados: ${result} m²`;
+}
+
 

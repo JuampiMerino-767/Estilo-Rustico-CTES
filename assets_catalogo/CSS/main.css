@@ -2,7 +2,7 @@
 
 :root {
     --clr-main-f:rgba(82, 49, 0, 0.75);
-    --clr-main-d:#171717;
+    --clr-main-d:#302514;
     --clr-main-light: black;
     --clr-white: #ccc;
     --clr-gray: #e2e2e2;
@@ -154,6 +154,9 @@ aside {
     flex-direction: column;
     gap: .5rem;
 }
+.menu button{
+    font-size: 20px;
+}
 
 .boton-menu {
     background-color: transparent;
@@ -246,7 +249,7 @@ main {
 .contenedor-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    gap: 4.5rem;
     
 }
 
@@ -863,6 +866,9 @@ main {
     .header-mobile .logo {
         color: var(--clr-gray);
 
+    }
+    .menu button{
+        font-size: 14px;
     }
 
     .open-menu, .close-menu {
