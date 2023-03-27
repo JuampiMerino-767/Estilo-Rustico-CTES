@@ -403,6 +403,9 @@ nav {
    
     
   }
+  .contain p{
+    font-size: 40px;
+  }
   .carrito-mobile-container span{
     font-size: 30px;
     border-radius: 5px;

@@ -521,6 +521,21 @@ p {
     text-align: center;
     
 }
+.box-content{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    
+}
+.box-content p{
+    font-size: 40px;
+}
+.box-c h3{
+    font-size: 25px;
+}
+
 .info-content{
     padding: 0;
     background: url(img/revestimiento\ pared\ blanca.jpg)  center;
@@ -530,8 +545,8 @@ p {
 }
 
 .box-container .box {
-    height: 11rem;
-    width: 17rem;
+    height: 14rem;
+    width: 33rem;
     background: #101010;
     text-align: center;
     border-radius: 1rem;
@@ -541,14 +556,14 @@ p {
 }
 
 .box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
     text-align: center;
     border-radius: 50%;
     color: #fff;
     background: #4d3304;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 1rem 0;
     margin-top: 50px;
 }
@@ -616,7 +631,7 @@ p {
 }
 
 .icon-cash{
-    font-size: 50px;
+    font-size: 80px;
     margin-top: 50px;
     color: #ffff;
 }
@@ -729,7 +744,10 @@ p {
     font-weight: 700;
 }
 .content p{
-    font-size: 15px;
+
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content a{
@@ -1141,7 +1159,12 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 @media (max-width: 765px) {
+
+    .content{
+        height: 70vh;
+    }
     .card-container{
         display: grid;
         grid-template-columns: 1fr ;
@@ -1197,6 +1220,7 @@ p {
         margin-bottom: 5px;
     }
     .content{
+       
         box-shadow: -20px 24px 25px 6px #000;
     }
 
@@ -1320,6 +1344,7 @@ p {
     transition: 0.5s;
     background-color: #000504;
 }
+
 .title-icon i{
     left: 0;
     top: 10px;
@@ -1329,15 +1354,31 @@ p {
     height: 40px;
     padding: 15px ;
     background-color: #fff;
-
     border-radius: 50%;
 }
 
+.box-container .box{
+    height: 200px;
+    width: 100%;
+    margin-left: -15px;
+
+}
+
+
+.box-content{
+    background-color: transparent;
+    
+}
+.box-content p{
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
 
 }
 @media (min-width: 810px) {
     .content{
-        height: 80vh;
+        height: 125vh;
     }
     .info-content i{
         left: 0;
@@ -1347,25 +1388,16 @@ p {
     .maps{
         width: 60%;
     }
+   
+  
     
 }
-@media (min-width: 767px) {
-    .content{
-        height: 90vh;
-    }
-    .content i{
-        left: 0;
-        top: 15px;
-    }
-    .maps{
-        width: 40%;
-    }
-}
+
     
 @media (min-width: 1000px) {
     
     .content{
-        height: 100vh;
+        height: 120vh;
     }
    
    
