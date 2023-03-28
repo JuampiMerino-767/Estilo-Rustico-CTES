@@ -480,7 +480,7 @@ const productos = [
     },
     {
         id: "item 23",
-        titulo: "Revestimiento",
+        titulo: "Atermico",
         imagen: "./assets_catalogo/IMG/item 23.jpg",
         info:{
             tipo:'Revestimiento de piso',
@@ -494,7 +494,7 @@ const productos = [
         },
         categoria: {
             nombre: "Deck antideslizante",
-            id: "Revestimientos",
+            id: "Atermicos",
         },
         precio: 1000,
         unidades:'4'
@@ -565,14 +565,14 @@ const productos = [
     {
         id: "item 27",
         titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 27.jpg",
+        imagen: "./assets_catalogo/IMG/item 27.jpeg",
         info:{
-            tipo:'Durmiente 50x30',
+            tipo:'Durmiente 50x25x6cm',
             Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '50x30x7 cm || Espesor 70mm +/- 1,5mm',
+            Medida: '50x25xc cm || Espesor 70mm +/- 1,5mm',
             Peso: '17kg aproximadamente por unidad', 
-            Cantidad: '6.7 unidades por m2',
+            Cantidad: '8 unidades por m2',
             Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
@@ -581,7 +581,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'6.7'
+        unidades:'8'
     },
     {
         id: "item 28",
@@ -774,7 +774,133 @@ const productos = [
         precio: 1000,
         unidades:'3.4'
     },
+    {
+        id: "item 37",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 37.jpeg",
+        info:{
+            tipo:'Quebracho 60x20',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '60x20x3 cm || 30mm +/- 1,5mm',
+            Peso: '7.2kg aproximadamente por unidad', 
+            Cantidad: 'No definido',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Durmiente 1 metro",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'3.4'
+    },
+    {
+        id: "item 38",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 38.jpg",
+        info:{
+            tipo:'Solarium Travertino',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Solarium Travertino",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'4'
+    },
 
+    {
+        id: "item 39",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 39.jpeg",
+        info:{
+            tipo:'Deck Travertino',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Deck Travertino",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'4'
+    },
+    {
+        id: "item 40",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 40.jpeg",
+        info:{
+            tipo:'Esquinero Rejilla',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '25x25 cm || 40mm +/- 1,5mm',
+            Peso: '4kg aproximadamente por unidad', 
+            Cantidad: '16 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Esquinero rejilla",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'16'
+    },
+    {
+        id: "item 41",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 41.jpeg",
+        info:{
+            tipo:'Pïnotea 1m',
+            Material: 'Bicapa atérmico',
+            Precio:' por m2',
+            Medida: '100x13.5x4 cm || 40mm +/- 1,5mm',
+            Peso: '8.15kg aproximadamente por unidad', 
+            Cantidad: '8.33 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Pinotea 1 metro",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'8.33'
+    },
+    {
+        id: "item 42",
+        titulo: "Jardin",
+        imagen: "./assets_catalogo/IMG/item 42.jpeg",
+        info:{
+            tipo:'Bloque cesped huella',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '40x40x9 cm || Espesor 60mm +/- 1,5mm',
+            Peso: '17kg aproximadamente por unidad', 
+            Cantidad: '6.3 unidades por m2 || 2 unidades por venta',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Bloque cesped huella",
+            id: "Jardin",
+        },
+        precio: 1000,
+        unidades:'6.3'
+    },
             
 ];
 
