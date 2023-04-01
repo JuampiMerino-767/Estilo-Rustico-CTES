@@ -23,7 +23,7 @@ const productos = [
         id: "item 2",
         titulo:"item 2",
         recomend:'Recomendado',
-        imagen:"./assets_catalogo/IMG/item 2.jpg",
+        imagen:"./assets_catalogo/IMG/item 2.jpeg",
         info:{
             tipo:'Revestimiento de pared',
             Material: 'Hormigón pigmentado con o sin tratamiento simil madera',
