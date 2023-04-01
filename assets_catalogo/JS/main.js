@@ -42,7 +42,7 @@ const productos = [
             Código: 'ER0000-048 ',
         },
         categoria: {
-            nombre: "Quebracho y Corteza (Piso)",
+            nombre: "Quebracho y Corteza (Pared)",
             id: "Revestimientos"
         },
         precio: 1000,
@@ -833,7 +833,7 @@ const productos = [
             Código: 'ER0000-048 ',
         },
         categoria: {
-            nombre: "Quebracho y Corteza (Pared)",
+            nombre: "Quebracho y Corteza (Piso)",
             id: "Revestimientos"
         },
         precio: 1000,
