@@ -60,7 +60,7 @@ const renderCard = (parseado) =>{
         <hr>
         <p class="product-card-description">Venta: ${parseado.info.Precio}</p>
         <hr>
-        <a class="ir-catalogo" href="https://wa.me/message/AWYBARMX2MK7G1">Ver catalogo en WhatsApp</a>
+        <a class="ir-catalogo" href="https://wa.me/message/AWYBARMX2MK7G1">Ver mas imagenes en WhatsApp</a>
         <hr>
         <p class="product-card-price">$${parseado.precio}</p>
         <div class="btn-container">
