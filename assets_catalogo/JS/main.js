@@ -30,7 +30,7 @@ const productos = [
         id: "item 2",
         titulo:"Revestimiento",
         recomend:'Recomendado',
-        imagen:"./assets_catalogo/IMG/item 2.jpg",
+        imagen:"./assets_catalogo/IMG/item 2.jpeg",
         info:{
             tipo:'Revestimiento de pared o piso',
             Material: 'Hormigón pigmentado',
@@ -42,7 +42,7 @@ const productos = [
             Código: 'ER0000-048 ',
         },
         categoria: {
-            nombre: "Quebracho y Corteza",
+            nombre: "Quebracho y Corteza (Piso)",
             id: "Revestimientos"
         },
         precio: 1000,
@@ -170,7 +170,7 @@ const productos = [
             Código: 'ER0000-037',
         },
         categoria: {
-            nombre: "Adoquin",
+            nombre: "Adoquin colonial",
             id: "Revestimientos"
         },
         precio: 1000,
@@ -345,34 +345,13 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Simil quebracho y corteza",
+            nombre: "Quebracho cruzado",
             id: "Revestimientos"
         },
         precio: 1000,
         unidades:'6.25',
     }
     ,
-    {
-        id: "item 17",
-        titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 17.jpg",
-        info:{
-            tipo:'Revestimiento de piso',
-            Material: 'Hormigón pigmentado',
-            Precio:' por m2',
-            Medida: '50x13,5x2,5 cm || Espesor 25mm +/- 1,5mm',
-            Peso: '4.5kg aproximadamente por unidad', 
-            Cantidad: '15 unidades por m2',
-            Pallet: 'por pallet',
-            Código: 'ER0000-0',
-        },
-        categoria: {
-            nombre: "Quebracho cruzado",
-            id: "Revestimientos",
-        },
-        precio: 1000,
-        unidades:'15'
-    },
     {
         id: "item 18",
         titulo: "Revestimiento",
@@ -409,7 +388,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Adoquín madera con Quebracho 60",
+            nombre: "Quebracho de 60 + adoquin madera",
             id: "Revestimientos",
         },
         precio: 1000,
@@ -493,7 +472,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Deck antideslizante",
+            nombre: "Deck antideslizante L",
             id: "Atermicos",
         },
         precio: 1000,
@@ -520,27 +499,7 @@ const productos = [
         precio: 1000,
         unidades:'4'
     },
-    {
-        id: "item 25",
-        titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 25.jpg",
-        info:{
-            tipo:'Revestimiento de piso',
-            Material: 'Hormigón pigmentado',
-            Precio:' por m2',
-            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
-            Peso: '15kg aproximadamente por unidad', 
-            Cantidad: '4 unidades por m2',
-            Pallet: 'por pallet',
-            Código: 'ER0000-0',
-        },
-        categoria: {
-            nombre: "Adoquín Colonial",
-            id: "Revestimientos",
-        },
-        precio: 1000,
-        unidades:'4'
-    },
+
     {
         id: "item 26",
         titulo: "Jardin",
@@ -577,54 +536,11 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmientes simil madera",
+            nombre: "Durmientes 1mt",
             id: "Jardin",
         },
         precio: 1000,
         unidades:'8'
-    },
-    {
-        id: "item 28",
-        titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 28.jpg",
-        info:{
-            tipo:'Durmiente 1 metro',
-            Material: 'Hormigón pigmentado',
-            Precio:' por m2',
-            Medida: '100x30x7 cm || Espesor 70mm +/- 1,5mm',
-            Peso: '35kg aproximadamente por unidad', 
-            Cantidad: '3.4 unidades por m2',
-            Pallet: 'por pallet',
-            Código: 'ER0000-0',
-        },
-        categoria: {
-            nombre: "Durmientes simil madera",
-            id: "Jardin",
-        },
-        precio: 1000,
-        unidades:'3.4'
-    },
-
-    {
-        id: "item 29",
-        titulo: "Jardin",
-        imagen: "./assets_catalogo/IMG/item 29.jpg",
-        info:{
-            tipo:'Piedra',
-            Material: 'Hormigón pigmentado',
-            Precio:' por m2',
-            Medida: '10x10x5 cm || Espesor 50mm +/- 1,5mm',
-            Peso: '1.3kg aproximadamente por unidad', 
-            Cantidad: '100 unidades por m2',
-            Pallet: 'por pallet',
-            Código: 'ER0000-0',
-        },
-        categoria: {
-            nombre: "Adoquin 10",
-            id: "Jardin",
-        },
-        precio: 1000,
-        unidades:'100'
     },
     {
         id: "item 30",
@@ -900,6 +816,28 @@ const productos = [
         },
         precio: 1000,
         unidades:'6.3'
+    },
+    {
+        id: "item 43",
+        titulo:"Revestimiento",
+        recomend:'Recomendado',
+        imagen:"./assets_catalogo/IMG/item 43.jpeg",
+        info:{
+            tipo:'Revestimiento de pared o piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: '50x13,5x2,5 cm',
+            Peso: '4.5kg aproximadamente por unidad', 
+            Cantidad: '15 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Quebracho y Corteza (Pared)",
+            id: "Revestimientos"
+        },
+        precio: 1000,
+        unidades:'15'
     },
             
 ];
