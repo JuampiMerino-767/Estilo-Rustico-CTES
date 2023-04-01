@@ -272,8 +272,8 @@ const productos = [
             Material: 'Hormigón pigmentado',
             Precio:' por m2',
             Medida: 'No Definindo',
-            Peso: 'No definido', 
-            Cantidad: 'No definido',
+            Peso: '36kg por m2', 
+            Cantidad: '48 unidades por m2',
             Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
@@ -282,7 +282,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'0'
+        unidades:'48'
     }
     ,
     {
@@ -293,9 +293,9 @@ const productos = [
             tipo:'Revestimiento de pared',
             Material: 'Hormigón pigmentado ',
             Precio:' por m2',
-            Medida: 'No definido',
-            Peso: 'No definido', 
-            Cantidad: 'No definido',
+            Medida: '1x1',
+            Peso: '47,7 kg el m2', 
+            Cantidad: '33 piezas por m2',
             Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
@@ -304,7 +304,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'0'
+        unidades:'33'
     }
     ,
     {
@@ -316,8 +316,8 @@ const productos = [
             Material: 'Hormigón pigmentado',
             Precio:' por m2',
             Medida: 'No definido',
-            Peso: 'No definido', 
-            Cantidad: 'No definido',
+            Peso: '38,9 kg por m2', 
+            Cantidad: '8 piezas por m2',
             Pallet: 'por pallet',
             Código: 'ER0000-126',
         },
@@ -326,7 +326,7 @@ const productos = [
             id: "Revestimientos"
         },
         precio: 1000,
-        unidades:'0'
+        unidades:'8'
     }
     ,
     {
@@ -397,12 +397,12 @@ const productos = [
     {
         id: "item 20",
         titulo: "Revestimiento",
-        imagen: "./assets_catalogo/IMG/item 20.jpg",
+        imagen: "./assets_catalogo/IMG/item 20.jpeg",
         info:{
             tipo:'Revestimiento de piso',
             Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Medida: '140x0,12x0,04 cm || Espesor 30mm +/- 1,5mm',
             Peso: '15kg aproximadamente por unidad', 
             Cantidad: '4 unidades por m2',
             Pallet: 'por pallet',
@@ -430,7 +430,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Pinotea",
+            nombre: "Pinotea 1mt",
             id: "Revestimientos",
         },
         precio: 1000,
@@ -526,12 +526,12 @@ const productos = [
         titulo: "Jardin",
         imagen: "./assets_catalogo/IMG/item 27.jpeg",
         info:{
-            tipo:'Durmiente 50x25x6cm',
+            tipo:'Durmiente 100x25x7cm',
             Material: 'Hormigón pigmentado',
             Precio:' por m2',
-            Medida: '50x25xc cm || Espesor 70mm +/- 1,5mm',
-            Peso: '17kg aproximadamente por unidad', 
-            Cantidad: '8 unidades por m2',
+            Medida: '100x30x7 cm || Espesor 70mm +/- 1,5mm',
+            Peso: '35kg aproximadamente por unidad', 
+            Cantidad: '3.4 unidades por m2',
             Pallet: 'por pallet',
             Código: 'ER0000-0',
         },
@@ -540,7 +540,7 @@ const productos = [
             id: "Jardin",
         },
         precio: 1000,
-        unidades:'8'
+        unidades:'3.4'
     },
     {
         id: "item 30",
@@ -620,8 +620,8 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Adoquín intertrabado",
-            id: "Jardin",
+            nombre: "Durmiente 50x25 Atermico",
+            id: "Atermicos",
         },
         precio: 1000,
         unidades:'50'
@@ -641,7 +641,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmiente 50x30",
+            nombre: "Durmiente 50x30 Hormigon",
             id: "Atermicos",
         },
         precio: 1000,
@@ -663,7 +663,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmiente 50x30",
+            nombre: "Durmiente 50x30 Atermico",
             id: "Atermicos",
         },
         precio: 1000,
@@ -672,7 +672,7 @@ const productos = [
     {
         id: "item 36",
         titulo: "Atermico",
-        imagen: "./assets_catalogo/IMG/item 36.jpg",
+        imagen: "./assets_catalogo/IMG/item 36.jpeg",
         info:{
             tipo:'Durmientes simil madera',
             Material: 'Bicapa atérmico',
@@ -684,7 +684,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmiente 1 metro",
+            nombre: "Durmiente 1 metro Atermico",
             id: "Atermicos",
         },
         precio: 1000,
@@ -705,7 +705,7 @@ const productos = [
             Código: 'ER0000-0',
         },
         categoria: {
-            nombre: "Durmiente 1 metro",
+            nombre: "Quebracho 60x20",
             id: "Atermicos",
         },
         precio: 1000,
@@ -838,8 +838,91 @@ const productos = [
         },
         precio: 1000,
         unidades:'15'
+    },   
+    {
+        id: "item 44",
+        titulo:"Revestimiento",
+        imagen:"./assets_catalogo/IMG/item 44.jpeg",
+        info:{
+            tipo:'Revestimiento de pared o piso',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: ' 8x8 cm|| de 2 a 2,5 cm espesor ',
+            Peso: '50,4kg aproximadamente por unidad', 
+            Cantidad: '144 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "BlockWood 3D",
+            id: "Revestimientos"
+        },
+        precio: 1000,
+        unidades:'144'
     },
-            
+    {
+        id: "item 45",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 45.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: ' 50x50 cm || de 3 a 6 cm espesor ',
+            Peso: '18kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde ballena 50x50",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'144'
+    },
+    {
+        id: "item 46",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 46.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: ' 50x40 cm || de 3 a 6 cm espesor ',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde ballena 50x40",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'144'
+    },
+    {
+        id: "item 47",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 47.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Hormigón pigmentado',
+            Precio:' por m2',
+            Medida: ' 50x40 cm || de 3 a 6 cm espesor ',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde ballena 50x40",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'144'
+    },
 ];
 
 const contenedorProductos = document.querySelector('#contenedor-productos');
