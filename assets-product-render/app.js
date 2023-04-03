@@ -43,7 +43,12 @@ const parseado = JSON.parse(productoExtraidoLS)
 const container = document.querySelector('.products')
 const renderCard = (parseado) =>{
   container.innerHTML = `
-    <h2 class="products-title">${parseado.categoria.nombre}</h2>
+    <h2 class="products-title"><a class="fancy" href="#">
+    <span class="top-key"></span>
+    <span class="text">${parseado.categoria.nombre}</span>
+    <span class="bottom-key-1"></span>
+    <span class="bottom-key-2"></span>
+  </a></h2>
     <div class="products-container">
     
       <div class="product-card">
