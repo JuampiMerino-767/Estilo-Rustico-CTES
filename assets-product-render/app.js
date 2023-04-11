@@ -70,8 +70,7 @@ const renderCard = (parseado) =>{
         <p class="product-card-price">$${parseado.precio}</p>
         <div class="btn-container">
                 
-                
-        
+         
         <div class="carrito-mobile-container">
              <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
           </div> 
@@ -143,5 +142,4 @@ function calculateSquareMeters() {
   const result = width * height;
   document.getElementById("result").innerHTML = `Metros Cuadrados: ${result} m²`;
 }
-
 

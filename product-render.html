@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo Rustico</title>
+     <!--Libreria toastify-->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./assets-product-render/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   
+  
   <nav>
     <div class="logo">
       <a href="./index.html">Estilo Rustico</a>
@@ -27,6 +29,7 @@
     </div>
   </nav>
     <section class="products">
+      
       <!--
         <h2 class="products-title">Nombre del producto</h2>
         <div class="products-container">
@@ -39,8 +42,15 @@
 
           </div>
           -->
-
-
+          <!--
+          <div class="btn-container">
+                
+            <button class="btn-agregar">Agregar</button>
+            <button class="btn-restar">Restar</button>
+        <div class="carrito-mobile-container">
+         <a class=" boton-menu boton-carrito carrito-nav " href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i> <span id="numerito-mobile" class="numerito class="boton-categoria"">0</span></a>
+        </div> 
+-->
 
       </section>
       <div class="calcular">
@@ -78,7 +88,7 @@
       <div class="btn-return">
         <button onclick="backToCatalogo()" class="back-to-catalog">Volver al catálogo</button>
       </div>
-      
+      <!---->
       <section class="payment-methods">
         
         <div class="container">
@@ -96,15 +106,22 @@
             </div>
           </div>
         </div>
+        
+
       </section>
      
 
  
       <footer>
         <div class="container">
-          <div class="logo">
+
+
+          
+          <div class="logoES">
             <img src="./assets/img/Logo.jpg" alt="Logo de la empresa">
           </div>
+          
+
           <div class="address">
             <p></p>
             <p>Teléfono:+54-9-3794-237037 </p>
@@ -113,10 +130,11 @@
           
       </footer>
       
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
       <script src="./assets_catalogo/JS/main.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
      <script src="./assets-product-render/app.js"></script>
      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
 </body>
 </html>
