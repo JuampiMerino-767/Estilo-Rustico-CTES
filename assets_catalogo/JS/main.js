@@ -944,6 +944,69 @@ const productos = [
         precio: 1000,
         unidades:'4'
     },
+    {
+        id: "item 49",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 49.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Atermico',
+            Precio:' por m2',
+            Medida: ' 50x50 cm || de 3 a 6 cm espesor ',
+            Peso: '19kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde ballena 50x50 L",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'2'
+    },
+    {
+        id: "item 50",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 50.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Atermico',
+            Precio:' por m2',
+            Medida: ' 50x50x3 cm || 3 cm espesor ',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde L",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'2'
+    },
+    {
+        id: "item 51",
+        titulo:"Atermico",
+        imagen:"./assets_catalogo/IMG/item 51.jpeg",
+        info:{
+            tipo:'Atermico',
+            Material: 'Atermico',
+            Precio:' por m2',
+            Medida: ' 50x50x3 cm || 3 cm espesor ',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '2 unidades por metro lineal',
+            Pallet: 'por pallet',
+            Código: 'ER0000-048 ',
+        },
+        categoria: {
+            nombre: "Borde Recto",
+            id: "Atermicos"
+        },
+        precio: 1000,
+        unidades:'2'
+    },
 ];
 
 const contenedorProductos = document.querySelector('#contenedor-productos');
