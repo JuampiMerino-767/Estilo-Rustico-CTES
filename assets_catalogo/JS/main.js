@@ -896,7 +896,7 @@ const productos = [
             Código: 'ER0000-048 ',
         },
         categoria: {
-            nombre: "Borde ballena 50x40",
+            nombre: "Borde ballenita 50x40",
             id: "Atermicos"
         },
         precio: 1000,
@@ -922,6 +922,27 @@ const productos = [
         },
         precio: 1000,
         unidades:'144'
+    },
+    {
+        id: "item 48",
+        titulo: "Atermico",
+        imagen: "./assets_catalogo/IMG/item 48.jpeg",
+        info:{
+            tipo:'Revestimiento de piso',
+            Material: 'Atermico',
+            Precio:' por m2',
+            Medida: '50x50x3 cm || Espesor 30mm +/- 1,5mm',
+            Peso: '15kg aproximadamente por unidad', 
+            Cantidad: '4 unidades por m2',
+            Pallet: 'por pallet',
+            Código: 'ER0000-0',
+        },
+        categoria: {
+            nombre: "Deck antideslizante ",
+            id: "Atermicos",
+        },
+        precio: 1000,
+        unidades:'4'
     },
 ];
 
