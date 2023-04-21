@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  scroll-behavior: smooth;
 }
 
 
@@ -63,7 +64,23 @@ nav {
   transition: transform 0.3s ease-in-out;
 }
 
+.calculator-bubble {
+ width: 100%;
+ font-size: 40px;
+ display: flex;
+ justify-content: flex-end;
+ padding: 10px;
+ position: fixed;
+ z-index: 999;
+ 
 
+}
+.calculator-bubble a{
+  color: #000;
+  background-color: rgba(243, 235, 235, 0.4);
+  border-radius: 5px;
+  padding: 10px 0 0 0;
+}
 
 
 .products {
@@ -522,6 +539,10 @@ nav {
   
   .back-to-catalog:active:after {
     transform: translate(-50%, -50%) translateX(-5px);
+  }
+
+  .logoES{
+    margin: auto;
   }
   
   
